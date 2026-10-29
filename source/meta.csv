@@ -1,0 +1,2 @@
+slug,title,description,version,author,color,icon,image,exam_questions,exam_minutes,exam_pass_percent,exam_types
+us-citizenship-civics-test,US Citizenship Civics Test,"Pass the 2025 US naturalization civics test. All 128 official USCIS questions in short, repeatable lessons on American government, history, symbols and holidays.",1.0.0,Yaaddi,#1971C2,flag-outline,course-cover.png,20,,60,multiple_choice

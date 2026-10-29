@@ -1,0 +1,41 @@
+{
+  "id": "5d2b8e7a1c43",
+  "title": "US Citizenship Civics Test",
+  "description": "Pass the 2025 US naturalization civics test. All 128 official USCIS questions in short, repeatable lessons on American government, history, symbols and holidays.",
+  "image": "cover.png",
+  "file": "us-citizenship-civics-test.zip",
+  "version": "1.0.0",
+  "tags": [
+    "usa",
+    "citizenship",
+    "civics",
+    "test-prep",
+    "history",
+    "government"
+  ],
+  "changelog": [
+    {
+      "version": "1.0.0",
+      "date": "2026-10-02",
+      "notes": "Initial release - 16 decks, 83 packs, 594 cards."
+    }
+  ],
+  "toc": [
+    "How the Civics Test Works",
+    "Symbols",
+    "Holidays",
+    "The Constitution",
+    "Founding Ideas",
+    "Congress",
+    "The Senate",
+    "The House of Representatives",
+    "The President",
+    "Courts and Federal-State Powers",
+    "Voting and Citizenship",
+    "Rights, Loyalty and Duties",
+    "Colonial America",
+    "Independence and the Founders",
+    "The 1800s",
+    "The 1900s and Today"
+  ]
+}

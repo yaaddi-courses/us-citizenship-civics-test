@@ -1,0 +1,644 @@
+id,unit_id,type,role,related_main_id,prompt,options,correct_index,image,audio,explanation
+1,1,true_false,preview,2,The civics test is an oral test.,,true,,,True. An officer asks the questions out loud and you answer out loud.
+2,1,multiple_choice,main,,How many answers must you get right?,12|15|20,0,,,The oral civics test for naturalization: 20 questions asked from the 128; you need 12 correct.
+3,1,select_blank,exercise,2,The officer asks up to ___ questions.,12|20|128,1,,,The officer asks up to 20 questions from the bank of 128.
+4,1,true_false,exercise,2,The civics test is a written exam.,,false,,,False. It is an oral test: you answer the officer's questions out loud.
+5,1,multiple_choice,exercise,2,What is the pass mark?,20 correct|9 correct|12 correct,2,,,You pass by answering 12 questions correctly.
+6,1,true_false,exercise,2,You must answer all 20 questions correctly.,,false,,,False. You need only 12 correct answers to pass.
+7,1,multiple_choice,exercise,2,What is naturalization?,Gaining citizenship|Getting work|Paying taxes,0,,,"Naturalization is the process of becoming a US citizen, and the civics test is one part of it."
+8,1,select_blank,exercise,2,The question bank has ___ questions.,100|128|65,1,,,The 2025 test uses a bank of 128 questions.
+9,1,select_blank,exercise,2,You need ___ correct answers to pass.,20|9|12,2,,,Twelve correct answers out of up to 20 questions is a pass.
+10,1,true_false,preview,11,Some older applicants study only twenty questions.,,true,,,True. That is the 65/20 rule.
+11,1,multiple_choice,main,,Who can use the 65/20 rule?,Age 65+|Under 18|Any age,0,,,"65/20 rule: age 65+ and 20 years as a permanent resident. You study 20 questions, get asked 10 and need 6 correct."
+12,1,true_false,exercise,11,"Under the 65/20 rule, 10 questions are asked.",,true,,,True. The officer asks 10 of the 20 marked questions.
+13,1,select_blank,exercise,11,"Under 65/20, you need ___ correct.",12|6|10,1,,,Six out of 10 correct answers is a pass for the 65/20 rule.
+14,1,multiple_choice,exercise,11,How many questions are asked under 65/20?,20|6|10,2,,,The officer asks 10 questions.
+15,1,true_false,exercise,11,The 65/20 rule applies to every applicant.,,false,,,False. It is only for applicants who are 65 or older with 20 years as permanent residents.
+16,1,select_blank,exercise,11,You must be a permanent resident for ___ years.,20|65|10,0,,,The 65/20 rule needs 20 years as a lawful permanent resident.
+17,1,multiple_choice,exercise,11,What does 65 stand for?,Your height|Your age|Your income,1,,,Applicants must be 65 or older.
+18,1,true_false,preview,19,Some civics answers change after elections.,,true,,,True. The officer expects the name of the official serving at your interview.
+19,1,multiple_choice,main,,Where do you check changed answers?,A library|A newspaper|uscis.gov,2,,,"Some answers change with elections. The official test updates page, uscis.gov/citizenship/testupdates, lists current officials."
+20,1,true_false,exercise,19,The president's name never changes on the test.,,false,,,False. Answers about current officials change after elections or appointments.
+21,1,multiple_choice,exercise,19,Which answer can change?,Current president|Founding year|Flag colors,0,,,"The president serves a term, so the answer changes; historical facts do not."
+22,1,true_false,exercise,19,You must name the official serving at your interview.,,true,,,True. Give the name of whoever holds the office at that time.
+23,1,select_blank,exercise,19,Check the official test ___ page.,history|updates|shop,1,,,USCIS lists changed answers on its test updates page.
+24,2,true_false,preview,25,"Washington, D.C. is the capital of the United States.",,true,,,True. The Statue of Liberty is in New York Harbor.
+25,2,multiple_choice,main,,What is the capital of the United States?,"New York|Philadelphia|Washington, D.C.",2,,,"Washington, D.C. is the US capital. The Statue of Liberty stands in New York Harbor, on Liberty Island."
+26,2,select_blank,exercise,25,The Statue of Liberty is in ___ Harbor.,New York|Boston|Miami,0,,,It stands in New York Harbor.
+27,2,true_false,exercise,25,"The Statue of Liberty is in Washington, D.C.",,false,,,False. It is on Liberty Island in New York Harbor.
+28,2,multiple_choice,exercise,25,Where is the Statue of Liberty?,Ellis Bay|Liberty Island|Plymouth,1,,,"Liberty Island, in New York Harbor, is the answer USCIS gives."
+29,2,multiple_choice,exercise,25,Which is the US capital?,"Boston|Los Angeles|Washington, D.C.",2,,,"The capital of the United States is Washington, D.C."
+30,2,true_false,preview,31,The flag has thirteen stripes for the original colonies.,,true,,,True. The stars stand for the states.
+31,2,multiple_choice,main,,Why does the flag have 50 stars?,Each state|Each president|Each century,0,,,The 13 stripes represent the 13 original colonies and the 50 stars represent the 50 states.
+32,2,select_blank,exercise,31,The flag has ___ stripes.,50|13|7,1,,,There are 13 stripes.
+33,2,select_blank,exercise,31,The flag has ___ stars.,13|48|50,2,,,"There are 50 stars, one for each state."
+34,2,multiple_choice,exercise,31,What do the stripes represent?,Original colonies|Present states|Wars won,0,,,The 13 stripes represent the 13 original colonies.
+35,2,true_false,exercise,31,Each star represents a state.,,true,,,True. Fifty stars stand for fifty states.
+36,2,true_false,exercise,31,The flag has 50 stripes.,,false,,,False. It has 13 stripes and 50 stars.
+37,2,true_false,preview,38,The national anthem is The Star-Spangled Banner.,,true,,,True. The nation's first motto was E Pluribus Unum.
+38,2,select_blank,main,,"E Pluribus Unum means out of many, ___.",two|one|all,1,,,"The anthem is The Star-Spangled Banner. The nation's first motto, E Pluribus Unum, means out of many, one."
+39,2,multiple_choice,exercise,38,What is the national anthem?,Yankee Doodle|Hail Columbia|Star-Spangled Banner,2,,,The national anthem is The Star-Spangled Banner.
+40,2,true_false,exercise,38,E Pluribus Unum was the nation's first motto.,,true,,,"True. It means out of many, one."
+41,2,true_false,exercise,38,The anthem is Yankee Doodle.,,false,,,False. The anthem is The Star-Spangled Banner.
+42,2,multiple_choice,exercise,38,"Out of many, one is a ___.",motto|holiday|state,0,,,It is the meaning of the Latin motto E Pluribus Unum.
+43,3,true_false,preview,44,Independence Day celebrates freedom from Britain.,,true,,,True. It is also the country's birthday.
+44,3,multiple_choice,main,,What is Independence Day?,Veterans' holiday|Nation's birthday|Labor holiday,1,,,Independence Day celebrates US independence from Britain. It is also called the country's birthday.
+45,3,true_false,exercise,44,Independence Day honors veterans.,,false,,,False. It celebrates independence from Britain; Veterans Day honors veterans.
+46,3,select_blank,exercise,44,Independence Day celebrates freedom from ___.,France|Spain|Britain,2,,,Americans celebrate independence from Britain.
+47,3,true_false,exercise,44,Independence Day is the nation's birthday.,,true,,,True. USCIS accepts the country's birthday as an answer.
+48,3,true_false,preview,49,Memorial Day honors soldiers who died in service.,,true,,,True. Veterans Day honors all who have served.
+49,3,multiple_choice,main,,Which holiday honors soldiers who died?,Memorial Day|Veterans Day|Labor Day,0,,,Memorial Day honors soldiers who died in military service. Veterans Day honors people who have served in the US military.
+50,3,select_blank,exercise,49,___ Day honors all who served.,Memorial|Veterans|Labor,1,,,Veterans Day honors people who have served in the military.
+51,3,true_false,exercise,49,Veterans Day honors only those who died.,,false,,,False. It honors everyone who has served; Memorial Day honors those who died.
+52,3,multiple_choice,exercise,49,Memorial Day honors ___.,All workers|Presidents|Fallen soldiers,2,,,It honors soldiers who died in military service.
+53,3,true_false,exercise,49,Veterans Day honors people who have served.,,true,,,"True. It honors people in the US military, past and present."
+54,3,true_false,preview,55,New Year's Day is a national holiday.,,true,,,True. So are Labor Day and Thanksgiving Day.
+55,3,multi_select,main,,Pick three national holidays.,Labor Day|Veterans Day|Thanksgiving Day|Groundhog Day|Mother's Day,0|1|2,,,"Eleven national holidays include New Year's Day, Labor Day and Thanksgiving Day. Mother's Day and Groundhog Day are not."
+56,3,multiple_choice,exercise,55,Which is a national holiday?,Labor Day|Earth Day|Pi Day,0,,,Labor Day is one of the national holidays.
+57,3,true_false,exercise,55,Thanksgiving Day is a national holiday.,,true,,,True. It is on the official list.
+58,3,select_blank,exercise,55,"New Year's Day, Labor Day and ___ Day.",Valentine's|Thanksgiving|Halloween,1,,,Thanksgiving Day is a national holiday.
+59,3,true_false,exercise,55,Halloween is a national holiday.,,false,,,False. It is not on the list of national holidays.
+60,3,true_false,exercise,55,Groundhog Day is a national holiday.,,false,,,False. It is not a national holiday.
+61,3,multiple_choice,exercise,55,How many national holidays are on the list?,Seven|Fifteen|Eleven,2,,,The official list has eleven national holidays.
+62,3,true_false,preview,63,Symbols and holidays are among the easiest questions.,,true,,,True. Learn them first for quick points.
+63,3,multiple_choice,main,,Which holiday honors those who served?,Veterans Day|Labor Day|Flag Day,0,,,Veterans Day honors people who have served in the US military.
+64,3,match_pairs,exercise,63,Match each item to its meaning.,13 stripes↔Original colonies|50 stars↔Present states|Independence Day↔Nation's birthday|Memorial Day↔Fallen soldiers,,,,"Each symbol or holiday has a short, fixed meaning on the test."
+65,3,select_blank,exercise,63,The officer asks up to ___ questions.,12|20|10,1,,,The officer asks up to 20 questions.
+66,3,true_false,exercise,63,"Under 65/20, six correct answers pass.",,true,,,True. Six out of ten correct is a pass for the 65/20 rule.
+67,3,true_false,exercise,63,The Star-Spangled Banner is the anthem.,,true,,,True. It is the national anthem.
+68,3,select_blank,exercise,63,Each of the 50 stars represents a ___.,colony|war|state,2,,,Each star stands for one state.
+69,3,multiple_choice,exercise,63,Which city is the US capital?,"Washington, D.C.|Chicago|Boston",0,,,"Washington, D.C. is the capital."
+70,4,true_false,preview,71,The United States is a representative democracy.,,true,,,True. It is also called a republic.
+71,4,multiple_choice,main,,What form of government is the US?,Monarchy|Republic|Dictatorship,1,,,"The US is a republic, also called a representative democracy: citizens elect leaders to govern for them."
+72,4,true_false,exercise,71,The United States is a monarchy.,,false,,,"False. It is a republic, where power comes from the people."
+73,4,select_blank,exercise,71,"In a representative democracy, citizens ___ leaders.",inherit|appoint|elect,2,,,Citizens vote to elect leaders who govern for them.
+74,4,multiple_choice,exercise,71,A republic's power comes from ___.,the people|a king|the army,0,,,"In a republic, power comes from the people."
+75,4,true_false,exercise,71,A representative democracy means citizens vote on every law.,,false,,,False. Citizens elect leaders who make laws for them.
+76,4,true_false,preview,77,The supreme law of the land is the Constitution.,,true,,,True. It outranks all other US laws.
+77,4,multiple_choice,main,,What is the supreme law of the land?,Declaration|Constitution|Charter,1,,,The Constitution is the supreme law of the land: the written rules for the government and the people's rights.
+78,4,true_false,exercise,77,Presidents can ignore the Constitution.,,false,,,"False. The Constitution is the supreme law, so everyone must follow it."
+79,4,select_blank,exercise,77,The ___ is the supreme law of the land.,Treaty|Charter|Constitution,2,,,That is the official answer to question 2.
+80,4,multiple_choice,exercise,77,Which is above all other US laws?,Constitution|State laws|City rules,0,,,The Constitution outranks state and local laws.
+81,4,true_false,preview,82,The Constitution protects the rights of the people.,,true,,,True. It also forms the government.
+82,4,multiple_choice,main,,Name one thing the Constitution does.,Collects taxes|Protects rights|Declares war,1,,,"The Constitution forms the government, defines its powers and parts, and protects the rights of the people."
+83,4,true_false,exercise,82,The Constitution sets up the government.,,true,,,True. It forms the government and defines its parts.
+84,4,select_blank,exercise,82,The Constitution ___ the rights of the people.,removes|sells|protects,2,,,Protecting rights is one of its main jobs.
+85,4,multiple_choice,exercise,82,Which is a job of the Constitution?,Forms government|Writes recipes|Names holidays,0,,,It forms the government.
+86,4,true_false,exercise,82,The Constitution removes people's rights.,,false,,,False. It protects the rights of the people.
+87,4,true_false,preview,88,'We the People' means people should govern themselves.,,true,,,True. This idea is self-government.
+88,4,multiple_choice,main,,What does We the People mean?,Royal rule|Self-government|Military rule,1,,,"We the People means self-government: the government rules by the consent of the governed, the people."
+89,4,true_false,exercise,88,Consent of the governed means people agree to be ruled.,,true,,,True. The government's power comes from the people's agreement.
+90,4,select_blank,exercise,88,We the People means ___-government.,royal|military|self,2,,,The people govern themselves.
+91,4,multiple_choice,exercise,88,Who holds power under We the People?,The people|A king|The army,0,,,The people hold power.
+92,4,true_false,exercise,88,We the People means a king rules.,,false,,,False. It means the people govern themselves.
+93,4,true_false,preview,94,Changes to the Constitution are called amendments.,,true,,,True. The change process is the amendment process.
+94,4,multiple_choice,main,,How is the Constitution changed?,Parades|Amendments|Elections only,1,,,An amendment is a formal change to the Constitution. Changes are made through the amendment process.
+95,4,select_blank,exercise,94,A formal change to the Constitution is an ___.,order|treaty|amendment,2,,,That is the definition of an amendment.
+96,4,true_false,exercise,94,Amending the Constitution is how it is changed.,,true,,,True. Amendments are the official way to change it.
+97,4,multiple_choice,exercise,94,Which changes the Constitution?,An amendment|A poll|A parade,0,,,Only an amendment formally changes the Constitution.
+98,4,true_false,preview,99,The Constitution has twenty-seven amendments.,,true,,,True. The first ten are the Bill of Rights.
+99,4,multiple_choice,main,,What does the Bill of Rights protect?,Tax money|Basic rights|Borders,1,,,The Bill of Rights protects the basic rights of people living in the United States. The Constitution has 27 amendments.
+100,4,select_blank,exercise,99,The Constitution has ___ amendments.,10|50|27,2,,,There are twenty-seven (27) amendments.
+101,4,true_false,exercise,99,The Bill of Rights protects basic rights.,,true,,,True. It protects the basic rights of Americans and people living here.
+102,4,multiple_choice,exercise,99,How many amendments are there?,27|13|100,0,,,The answer is twenty-seven (27).
+103,4,true_false,exercise,99,The Bill of Rights lists the rules for taxes.,,false,,,"False. It protects basic rights, such as the rights of the people."
+104,4,true_false,preview,105,The people give a republic its power.,,true,,,True. That is why elected leaders govern for them.
+105,4,multiple_choice,main,,Which is the nation's highest law?,Anthem|Constitution|Holiday,1,,,The Constitution is the supreme law of the land.
+106,4,match_pairs,exercise,105,Match each term to its meaning.,Constitution↔Supreme law|Amendment↔Formal change|Bill of Rights↔Basic rights|Republic↔Elected leaders,,,,Each term names part of how the American system works.
+107,4,select_blank,exercise,105,Power comes from the consent of the ___.,army|king|governed,2,,,The government rules with the consent of the governed.
+108,4,true_false,exercise,105,A republic gets its power from a king.,,false,,,"False. In a republic, power comes from the people."
+109,4,multiple_choice,exercise,105,Which protects basic rights?,Bill of Rights|Anthem|Holiday,0,,,The Bill of Rights protects basic rights.
+110,4,true_false,exercise,105,No leader is above the Constitution.,,true,,,True. It is the supreme law of the land.
+111,4,true_false,exercise,105,The Constitution has 27 amendments.,,true,,,True. There are twenty-seven.
+112,4,match_pairs,exercise,105,"Match each term, round 1.",Naturalization↔Becoming a citizen|Republic↔Leaders chosen by people|Representative democracy↔Voters choose lawmakers|Constitution↔Basic rules of government,,,,Each term goes with its short meaning.
+113,5,true_false,preview,114,The Declaration of Independence says all people are created equal.,,true,,,True. It also said America was free from Britain.
+114,5,select_blank,main,,The ___ said the colonies were free from Britain.,Constitution|Declaration|Treaty,1,,,"The Declaration of Independence said America was free from Britain, that all people are created equal and have inherent rights."
+115,5,true_false,exercise,114,The Declaration of Independence is the supreme law.,,false,,,False. The Constitution is the supreme law; the Declaration announced independence.
+116,5,select_blank,exercise,114,The Declaration says all people are created ___.,rich|alike|equal,2,,,All people are created equal.
+117,5,multiple_choice,exercise,114,Which document announced independence?,Declaration|Treaty|Charter,0,,,The Declaration of Independence announced America was free from Britain.
+118,5,true_false,exercise,114,The Declaration says people have inherent rights.,,true,,,True. It identifies inherent rights and individual freedoms.
+119,5,true_false,preview,120,"Life, Liberty and Happiness appear in the Declaration.",,true,,,True. They are natural rights.
+120,5,multiple_choice,main,,"Where is 'Life, Liberty, Happiness' written?",Constitution|Declaration|Treaty,1,,,"Life, Liberty and the pursuit of Happiness are natural rights named in the Declaration of Independence."
+121,5,true_false,exercise,120,Natural rights come from the government.,,false,,,"False. Natural rights, such as life and liberty, belong to everyone from birth."
+122,5,select_blank,exercise,120,"Life, Liberty and the pursuit of ___.",Wealth|Power|Happiness,2,,,The phrase ends with Happiness.
+123,5,multiple_choice,exercise,120,Life and liberty are ___ rights.,natural|paid|optional,0,,,They are natural rights.
+124,5,true_false,exercise,120,The Declaration names life and liberty as rights.,,true,,,True. They appear in its famous phrase.
+125,5,true_false,preview,126,The US economic system is capitalism.,,true,,,True. It is also called a free market economy.
+126,5,multiple_choice,main,,What is the US economic system?,Communism|Capitalism|Feudalism,1,,,"The US economic system is capitalism, also called a free market economy."
+127,5,true_false,exercise,126,The US has a free market economy.,,true,,,True. Capitalism and free market economy are both accepted answers.
+128,5,select_blank,exercise,126,Capitalism is a free ___ economy.,royal|planned|market,2,,,It is also called a free market economy.
+129,5,multiple_choice,exercise,126,Which describes the US economy?,Free market|Royal|Tribal,0,,,The US has a free market economy.
+130,5,true_false,exercise,126,"In capitalism, the government owns most businesses.",,false,,,False. Private people and companies own most businesses.
+131,5,true_false,preview,132,No one is above the law.,,true,,,True. That idea is the rule of law.
+132,5,multiple_choice,main,,What is the rule of law?,Only citizens|Everyone obeys|Only voters,1,,,"The rule of law means everyone, including leaders and the government, must obey the law. No one is above the law."
+133,5,true_false,exercise,132,Leaders must obey the law too.,,true,,,True. No one is above the law.
+134,5,select_blank,exercise,132,No one is ___ the law.,behind|near|above,2,,,No one is above the law.
+135,5,true_false,exercise,132,The government must obey the law.,,true,,,True. The rule of law applies to the government as well.
+136,5,true_false,preview,137,The Mayflower Compact influenced the Constitution.,,true,,,True. So did the Articles of Confederation.
+137,5,multiple_choice,main,,Which influenced the Constitution?,Mayflower Compact|Gettysburg Address|Monroe Doctrine,0,,,"Many documents influenced the Constitution, including the Articles of Confederation, the Mayflower Compact and the Iroquois Great Law of Peace."
+138,5,select_blank,exercise,137,The Mayflower ___ influenced the Constitution.,Treaty|Compact|Doctrine,1,,,The Mayflower Compact is on the official list.
+139,5,true_false,exercise,137,The Iroquois Great Law of Peace influenced it.,,true,,,True. It is one of the accepted answers.
+140,5,true_false,exercise,137,The Articles of Confederation influenced the Constitution.,,true,,,True. It is on the official list.
+141,5,true_false,exercise,137,The Gettysburg Address influenced the Constitution.,,false,,,"False. It was written in 1863, long after the Constitution."
+142,5,select_blank,exercise,137,The Iroquois Great Law of ___.,War|Trade|Peace,2,,,The full name is the Iroquois Great Law of Peace.
+143,5,true_false,exercise,137,The Mayflower Compact is a founding document.,,true,,,True. It influenced American government.
+144,5,true_false,preview,145,Government has three branches so no part is too powerful.,,true,,,True. The branches also check each other.
+145,5,multiple_choice,main,,Why are there three branches?,Limit power|Save money|Speed laws,0,,,"Three branches keep any one part from becoming too powerful, using separation of powers and checks and balances."
+146,5,select_blank,exercise,145,There are ___ branches of government.,two|three|four,1,,,There are three branches.
+147,5,multiple_choice,exercise,145,What does separation of powers prevent?,Free speech|Voting|Excess power,2,,,It stops any one branch from becoming too powerful.
+148,5,true_false,exercise,145,Checks and balances let branches limit each other.,,true,,,True. Each branch can check the others.
+149,5,true_false,exercise,145,One branch should hold all power.,,false,,,False. Power is divided among three branches.
+150,5,multiple_choice,exercise,145,Separation of powers divides government into ___.,branches|states|parties,0,,,It divides government into branches with different jobs.
+151,5,select_blank,exercise,145,Checks and ___ keep branches equal.,taxes|balances|votes,1,,,The phrase is checks and balances.
+152,5,true_false,preview,153,The Declaration and the Constitution shaped the government.,,true,,,True. One announced independence; the other formed the government.
+153,5,multiple_choice,main,,Which system lets private companies compete?,Communism|Feudalism|Capitalism,2,,,"Capitalism, a free market economy, lets private people and companies compete."
+154,5,match_pairs,exercise,153,Match each item to its meaning.,Declaration↔Free from Britain|Capitalism↔Free market|Rule of law↔No one above|Natural rights↔Life and liberty,,,,Each item is a founding idea or document.
+155,5,select_blank,exercise,153,Checks and balances limit ___.,power|taxes|rights,0,,,They limit the power of each branch.
+156,5,multiple_choice,exercise,153,"Where is 'Life, Liberty, Happiness' found?",Constitution|Declaration|Anthem,1,,,It is in the Declaration of Independence.
+157,5,true_false,exercise,153,The US economy is a free market economy.,,true,,,True. This is capitalism.
+158,5,true_false,exercise,153,There are three branches of government.,,true,,,True. They share power through separation of powers.
+159,5,true_false,exercise,153,Natural rights are given by the government.,,false,,,False. Natural rights belong to everyone from birth.
+160,5,match_pairs,exercise,153,"Match each term, round 1.",Consent of the governed↔People allow rule|Amendment↔Change to Constitution|Bill of Rights↔First ten amendments|Declaration of Independence↔1776 freedom document|Natural rights↔Rights from birth,,,,Each term goes with its short meaning.
+161,5,match_pairs,exercise,153,"Match each term, round 2.",Capitalism↔Private ownership economy|Consent of the governed↔People allow rule|Amendment↔Change to Constitution,,,,Each term goes with its short meaning.
+162,6,true_false,preview,163,The president is in charge of the executive branch.,,true,,,True. The courts form the judicial branch.
+163,6,multiple_choice,main,,Which branch writes laws?,Executive|Judicial|Legislative,2,,,"The three branches are the legislative branch (writes laws), the executive branch (the president) and the judicial branch (the courts)."
+164,6,select_blank,exercise,163,The president leads the ___ branch.,executive|judicial|legislative,0,,,The president is in charge of the executive branch.
+165,6,multiple_choice,exercise,163,Who forms the judicial branch?,The president|The courts|Voters,1,,,The courts make up the judicial branch.
+166,6,true_false,exercise,163,The legislative branch writes laws.,,true,,,True. It is the part of government that writes laws.
+167,6,true_false,exercise,163,The courts write the laws.,,false,,,False. The legislative branch writes laws; the courts are the judicial branch.
+168,6,select_blank,exercise,163,"The legislative, executive and ___ are the branches.",federal|state|judicial,2,,,The third branch is the judicial branch.
+169,6,true_false,exercise,163,Judicial is one of the three branches.,,true,,,"True. The branches are legislative, executive and judicial."
+170,6,true_false,preview,171,Congress has two parts: the Senate and the House.,,true,,,True. Together they write federal laws.
+171,6,multiple_choice,main,,What are the two parts of Congress?,"Senate, House|Senate, Courts|House, Courts",0,,,Congress writes federal laws. It has two parts: the Senate and the House of Representatives.
+172,6,select_blank,exercise,171,Senate and House of ___.,Delegates|Representatives|Governors,1,,,The full name is the House of Representatives.
+173,6,true_false,exercise,171,Congress writes laws.,,true,,,True. Congress is the legislative branch.
+174,6,multiple_choice,exercise,171,Which writes federal laws?,The president|The courts|Congress,2,,,"Congress, the legislative branch, writes laws."
+175,6,true_false,exercise,171,The Senate is part of Congress.,,true,,,True. Congress has the Senate and the House.
+176,6,multiple_choice,exercise,171,The House is part of ___.,Congress|The courts|The military,0,,,The House of Representatives is one of the two parts of Congress.
+177,6,true_false,exercise,171,Congress has three parts.,,false,,,False. It has two parts: the Senate and the House.
+178,6,true_false,preview,179,Congress can declare war.,,true,,,True. It also writes laws and makes the federal budget.
+179,6,multiple_choice,main,,Name one power of Congress.,Hears cases|Declares war|Leads troops,1,,,"Congress writes laws, declares war and makes the federal budget."
+180,6,true_false,exercise,179,Congress makes the federal budget.,,true,,,True. Making the federal budget is a power of Congress.
+181,6,select_blank,exercise,179,Congress ___ laws.,enforces|explains|writes,2,,,Congress writes laws; the executive branch enforces them and the courts explain them.
+182,6,multiple_choice,exercise,179,Which can Congress do?,Declare war|Hear cases|Lead troops,0,,,Declaring war is a power of Congress.
+183,6,true_false,exercise,179,Congress hears court cases.,,false,,,False. Courts hear cases.
+184,6,select_blank,exercise,179,Congress makes the federal ___.,flag|budget|holiday,1,,,The federal budget is a power of Congress.
+185,6,true_false,exercise,179,Congress writes federal laws.,,true,,,True. Writing laws is its main job.
+186,7,true_false,preview,187,There are one hundred US senators.,,true,,,True. Each state has two.
+187,7,multiple_choice,main,,How long is a senator's term?,Two years|Four years|Six years,2,,,"There are 100 senators: two senators per state, each serving a six-year term."
+188,7,select_blank,exercise,187,There are ___ US senators.,100|50|435,0,,,There are one hundred senators.
+189,7,select_blank,exercise,187,Each state has ___ senators.,one|two|three,1,,,Each state has two senators.
+190,7,true_false,exercise,187,A senator's term is two years.,,false,,,False. A senator serves six years.
+191,7,multiple_choice,exercise,187,How many senators come from each state?,One|Four|Two,2,,,Each state has two senators.
+192,7,true_false,exercise,187,Each state has one senator.,,false,,,False. Each state has two.
+193,7,multiple_choice,exercise,187,A senator serves for ___.,six years|two years|life,0,,,Senators serve six-year terms.
+194,7,true_false,preview,195,Each state gets two senators for equal representation.,,true,,,True. This was part of the Great Compromise.
+195,7,multiple_choice,main,,Why does each state have two senators?,More taxes|Equal representation|Longer terms,1,,,"Each state has two senators for equal representation. This was the Great Compromise, or Connecticut Compromise."
+196,7,true_false,exercise,195,Small states get fewer senators.,,false,,,False. Every state has two senators.
+197,7,select_blank,exercise,195,The Great ___ gave states two senators.,Declaration|War|Compromise,2,,,The Great Compromise created two senators per state.
+198,7,multiple_choice,exercise,195,What does equal representation mean here?,Two each|By population|None,0,,,"Every state gets two senators, large or small."
+199,7,true_false,exercise,195,The Great Compromise is also called the Connecticut Compromise.,,true,,,True. Both names are accepted.
+200,7,true_false,preview,201,Citizens of a state elect its senators.,,true,,,True. Senators represent those citizens.
+201,7,multiple_choice,main,,Who does a US senator represent?,One district|State citizens|The president,1,,,"A US senator represents the citizens of their state, and citizens from that state elect senators."
+202,7,true_false,exercise,201,Citizens in the state elect senators.,,true,,,True. Citizens from the state elect its senators.
+203,7,select_blank,exercise,201,Senators represent the ___ of their state.,army|courts|people,2,,,They represent the people of their state.
+204,7,multiple_choice,exercise,201,Who elects US senators?,State citizens|Congress|The courts,0,,,Citizens of the state elect them.
+205,7,true_false,exercise,201,The president elects senators.,,false,,,False. Citizens of the state elect senators.
+206,8,true_false,preview,207,The House has four hundred thirty-five voting members.,,true,,,True. Each serves a two-year term.
+207,8,multiple_choice,main,,How long is a House term?,Four years|Two years|Six years,1,,,"The House of Representatives has 435 voting members, and each member serves a two-year term."
+208,8,select_blank,exercise,207,The House has ___ voting members.,100|50|435,2,,,There are 435 voting members.
+209,8,select_blank,exercise,207,A representative serves ___ years.,two|four|six,0,,,A House term is two years.
+210,8,true_false,exercise,207,The House has 100 members.,,false,,,False. The Senate has 100; the House has 435 voting members.
+211,8,multiple_choice,exercise,207,How many voting representatives are there?,100|435|270,1,,,There are 435 voting members.
+212,8,true_false,preview,213,Representatives serve shorter terms than senators.,,true,,,True. That keeps them closer to the voters.
+213,8,multiple_choice,main,,Why shorter House terms?,Save money|Reduce taxes|Follow opinion,2,,,Representatives serve two-year terms to follow public opinion more closely than senators.
+214,8,true_false,exercise,213,House terms are shorter to follow public opinion.,,true,,,True. Frequent elections keep members close to the voters.
+215,8,select_blank,exercise,213,House members ___ public opinion closely.,follow|ignore|change,0,,,Short terms make them follow public opinion.
+216,8,true_false,exercise,213,Senators serve shorter terms than representatives.,,false,,,False. Senators serve six years; representatives serve two.
+217,8,true_false,preview,218,States with more people have more representatives.,,true,,,True. Each member speaks for a district.
+218,8,multiple_choice,main,,Why do some states have more representatives?,Size|Population|Age,1,,,A state's number of representatives depends on its population. Each member represents citizens in a congressional district.
+219,8,select_blank,exercise,218,Representatives are chosen from congressional ___.,states|courts|districts,2,,,Each member represents a congressional district.
+220,8,multiple_choice,exercise,218,Who does a representative represent?,District citizens|All senators|The army,0,,,A representative represents the citizens in their district.
+221,8,true_false,exercise,218,States with more people get more representatives.,,true,,,True. Population decides the number.
+222,8,true_false,exercise,218,All states have the same number of representatives.,,false,,,False. The number depends on population.
+223,8,true_false,preview,224,The Speaker leads the House of Representatives.,,true,,,True. Members of the House choose the Speaker.
+224,8,multiple_choice,main,,Who leads the House of Representatives?,Chief Justice|Speaker|Vice President,1,,,The Speaker of the House leads the House. USCIS lists Mike Johnson (Oct 2026). Your own senators and representative vary by state.
+225,8,select_blank,exercise,224,The Speaker leads the ___.,Senate|courts|House,2,,,The Speaker of the House leads the House of Representatives.
+226,8,true_false,exercise,224,Mike Johnson is the Speaker of the House.,,true,,,"True as listed by USCIS in October 2026. Answers can change, so check testupdates."
+227,8,true_false,exercise,224,Everyone has the same senators.,,false,,,False. Your senators and representative depend on where you live.
+228,8,multiple_choice,exercise,224,Your senators depend on your ___.,state|age|job,0,,,Each state has its own two senators.
+229,8,true_false,preview,230,The Senate and House share the power to write laws.,,true,,,True. Both parts of Congress must act.
+230,8,multiple_choice,main,,How many members does the Senate have?,435|100|50,1,,,The Senate has 100 members: two from each state.
+231,8,match_pairs,exercise,230,Match each item to its size or term.,Senate↔100 members|House↔435 members|Senator↔Six-year term|Representative↔Two-year term,,,,Remember the size and term for each part of Congress.
+232,8,select_blank,exercise,230,Every state elects ___ senators.,one|five|two,2,,,Each state has two senators.
+233,8,true_false,exercise,230,A congressional district is part of a state.,,true,,,True. Each district elects one representative.
+234,8,multiple_choice,exercise,230,The Speaker leads which part of Congress?,House|Senate|Courts,0,,,The Speaker leads the House of Representatives.
+235,8,true_false,exercise,230,Senators serve longer terms than representatives.,,true,,,True. Six years versus two years.
+236,8,multiple_choice,exercise,230,Which part of Congress is bigger?,Senate|House|Equal,1,,,The House has 435 voting members; the Senate has 100.
+237,8,match_pairs,exercise,230,"Match each term, round 1.",Rule of law↔Everyone obeys laws|Checks and balances↔Branches limit each other|Separation of powers↔Government split up|Legislative branch↔Makes laws,,,,Each term goes with its short meaning.
+238,8,match_pairs,exercise,230,"Match each term, round 2.",Executive branch↔Carries out laws|Judicial branch↔Explains laws|Congress↔Senate and House|Senate↔100 senators|House of Representatives↔435 members,,,,Each term goes with its short meaning.
+239,8,match_pairs,exercise,230,"Match each term, round 3.","Great Compromise↔Two senators, population House|Rule of law↔Everyone obeys laws|Checks and balances↔Branches limit each other",,,,Each term goes with its short meaning.
+240,9,true_false,preview,241,The president serves a four-year term.,,true,,,True. Presidents can serve only two terms.
+241,9,multiple_choice,main,,How long is a presidential term?,Two years|Six years|Four years,2,,,"Presidents are elected for four years. The 22nd Amendment limits them to two terms, so no president becomes too powerful."
+242,9,select_blank,exercise,241,A president serves ___ years per term.,four|two|six,0,,,A presidential term is four years.
+243,9,true_false,exercise,241,A president can serve three terms.,,false,,,False. The 22nd Amendment limits presidents to two terms.
+244,9,multiple_choice,exercise,241,Which amendment limits presidential terms?,10th|22nd|27th,1,,,The 22nd Amendment limits a president to two terms.
+245,9,true_false,exercise,241,The 22nd Amendment keeps presidents from becoming too powerful.,,true,,,True. Limiting terms keeps the president from becoming too powerful.
+246,9,true_false,preview,247,"If the president cannot serve, the Vice President takes over.",,true,,,True. USCIS lists the current officials on its updates page.
+247,9,multiple_choice,main,,Who becomes president if the president can't serve?,Chief Justice|Governor|Vice President,2,,,"Presidential succession: the Vice President takes over. Per USCIS (Oct 2026), the president now is Donald Trump; Vice President now, J.D. Vance."
+248,9,multiple_choice,exercise,247,Who is the president now?,Donald Trump|J.D. Vance|John Roberts,0,,,"USCIS lists Donald Trump as of October 2026. Answers change, so check testupdates."
+249,9,multiple_choice,exercise,247,Who is the Vice President now?,Mike Johnson|J.D. Vance|John Roberts,1,,,USCIS lists J.D. Vance as of October 2026. Check testupdates for changes.
+250,9,true_false,exercise,247,The Vice President takes over if the president can't serve.,,true,,,True. The Vice President becomes president.
+251,9,select_blank,exercise,247,"If the president can't serve, the ___ takes over.",Speaker|Governor|Vice President,2,,,The Vice President becomes president.
+252,9,true_false,exercise,247,J.D. Vance is the Chief Justice.,,false,,,False. John Roberts is the Chief Justice; J.D. Vance is the Vice President.
+253,9,true_false,exercise,247,You should check testupdates for the current president.,,true,,,True. This answer changes with elections.
+254,9,true_false,preview,255,The president can veto bills.,,true,,,True. The president also signs bills into law.
+255,9,multiple_choice,main,,Who is Commander in Chief of the military?,President|Speaker|Chief Justice,0,,,"The president signs bills into law, vetoes bills and is Commander in Chief of the military. A veto rejects a bill."
+256,9,select_blank,exercise,255,The president ___ bills into law.,writes|signs|hears,1,,,The president signs bills into law.
+257,9,true_false,exercise,255,The president writes the laws.,,false,,,False. Congress writes laws; the president signs or vetoes them.
+258,9,multiple_choice,exercise,255,Who vetoes bills?,Congress|The courts|The president,2,,,The president can veto a bill.
+259,9,select_blank,exercise,255,The president is Commander in ___ of the military.,Chief|Command|Charge,0,,,The title is Commander in Chief.
+260,9,true_false,exercise,255,Congress is Commander in Chief.,,false,,,False. The president is Commander in Chief.
+261,9,multiple_choice,exercise,255,What does a veto do?,Passes bills|Rejects bills|Writes bills,1,,,A veto rejects a bill passed by Congress.
+262,9,true_false,preview,263,The Cabinet advises the president.,,true,,,True. It is part of the executive branch.
+263,9,multiple_choice,main,,What does the Cabinet do?,Writes laws|Hears cases|Advises president,2,,,The Cabinet advises the president; members include the Attorney General and Secretary of State. Federal departments and agencies are executive too.
+264,9,true_false,exercise,263,The Cabinet writes federal laws.,,false,,,False. The Cabinet advises the president; Congress writes laws.
+265,9,select_blank,exercise,263,The ___ advises the president.,Cabinet|Senate|Court,0,,,The Cabinet advises the president.
+266,9,multiple_choice,exercise,263,Which is part of the executive branch?,The Senate|Federal agencies|Federal courts,1,,,Federal departments and agencies are part of the executive branch.
+267,9,true_false,exercise,263,Federal departments are part of the executive branch.,,true,,,True. The president leads the executive branch.
+268,9,multiple_choice,exercise,263,Which is a Cabinet-level position?,Speaker|Chief Justice|Attorney General,2,,,The Attorney General is one of the Cabinet-level positions.
+269,9,true_false,preview,270,The Electoral College elects the president.,,true,,,True. It is a compromise.
+270,9,multiple_choice,main,,Why is the Electoral College important?,Elects president|Writes laws|Hears cases,0,,,The Electoral College decides who is elected president. It is a compromise between a popular vote and Congress choosing.
+271,9,true_false,exercise,270,The Electoral College writes laws.,,false,,,False. It decides who is elected president.
+272,9,select_blank,exercise,270,The ___ College decides who is elected president.,Federal|Electoral|Supreme,1,,,It is the Electoral College.
+273,9,multiple_choice,exercise,270,The Electoral College is a ___.,holiday|court|compromise,2,,,It is a compromise between a popular vote and congressional selection.
+274,9,true_false,preview,275,The president uses a Cabinet and can veto bills.,,true,,,True. Both are tools of the executive branch.
+275,9,multiple_choice,main,,Who formally elects the president?,Electoral College|The Senate|The courts,0,,,The Electoral College decides who is elected president.
+276,9,match_pairs,exercise,275,Match each item to its job.,Veto↔Rejects a bill|Cabinet↔Advises president|Electoral College↔Elects president|Commander in Chief↔Leads military,,,,Each item is part of the executive branch or its choice.
+277,9,true_false,exercise,275,The Senate elects the president.,,false,,,False. The Electoral College elects the president.
+278,9,true_false,exercise,275,A veto rejects a bill.,,true,,,True. The president can reject a bill.
+279,9,multiple_choice,exercise,275,Which group advises the president?,Senate|Cabinet|Courts,1,,,The Cabinet advises the president.
+280,9,select_blank,exercise,275,The 22nd Amendment limits a president to two ___.,bills|states|terms,2,,,It limits presidents to two terms.
+281,9,true_false,exercise,275,The Vice President can replace the president.,,true,,,True. The Vice President takes over if needed.
+282,9,match_pairs,exercise,275,"Match each term, round 1.",Congressional district↔House member's area|Speaker of the House↔House leader,,,,Each term goes with its short meaning.
+283,10,true_false,preview,284,The judicial branch resolves disputes about the law.,,true,,,True. The courts make up the judicial branch.
+284,10,multiple_choice,main,,What does the judicial branch do?,Resolves disputes|Writes laws|Signs bills,0,,,"The judicial branch reviews and explains laws, resolves disputes about the law, and decides if a law goes against the Constitution."
+285,10,true_false,exercise,284,The courts explain laws.,,true,,,True. Explaining laws is part of the judicial branch's job.
+286,10,select_blank,exercise,284,The judicial branch ___ disputes about the law.,creates|resolves|ignores,1,,,Resolving disputes is its job.
+287,10,multiple_choice,exercise,284,Which branch reviews laws?,Legislative|Executive|Judicial,2,,,The judicial branch reviews laws.
+288,10,true_false,exercise,284,The judicial branch writes laws.,,false,,,False. Congress writes laws.
+289,10,select_blank,exercise,284,Courts decide if a law goes against the ___.,Constitution|anthem|flag,0,,,They decide if a law goes against the Constitution.
+290,10,true_false,exercise,284,A court can decide a law goes against the Constitution.,,true,,,True. That is one of the judicial branch's powers.
+291,10,true_false,preview,292,The Supreme Court has nine seats.,,true,,,True. Justices serve for life.
+292,10,multiple_choice,main,,How long do Supreme Court justices serve?,Six years|For life|Four years,1,,,"The Supreme Court is the highest court with nine seats. Justices hold life tenure, serving for life to stay independent."
+293,10,select_blank,exercise,292,The Supreme Court has ___ seats.,five|twelve|nine,2,,,There are nine seats.
+294,10,select_blank,exercise,292,Usually ___ justices decide a case.,five|nine|two,0,,,Five justices are usually needed to decide a case.
+295,10,multiple_choice,exercise,292,What is the highest court?,Federal court|Supreme Court|State court,1,,,The Supreme Court is the highest court in the United States.
+296,10,true_false,exercise,292,Justices serve four-year terms.,,false,,,False. Justices serve for life.
+297,10,true_false,exercise,292,Justices serve for life to stay independent.,,true,,,True. Life tenure limits political influence.
+298,10,multiple_choice,exercise,292,Why do justices serve for life?,Higher pay|Tradition|Independence,2,,,Life tenure helps them stay independent of politics.
+299,10,true_false,preview,300,The Chief Justice leads the Supreme Court.,,true,,,True. USCIS lists the current name on its updates page.
+300,10,multiple_choice,main,,Who is the Chief Justice now?,John Roberts|Mike Johnson|J.D. Vance,0,,,USCIS lists John Roberts as Chief Justice in October 2026. Check testupdates because answers can change.
+301,10,true_false,exercise,300,John Roberts is the Chief Justice.,,true,,,True as listed by USCIS in October 2026.
+302,10,select_blank,exercise,300,The Chief Justice is John ___.,Johnson|Roberts|Vance,1,,,The answer is John Roberts.
+303,10,multiple_choice,exercise,300,Which court does the Chief Justice lead?,State court|City court|Supreme Court,2,,,The Chief Justice leads the Supreme Court.
+304,10,true_false,exercise,300,The Chief Justice is the president.,,false,,,False. The Chief Justice leads the Supreme Court.
+305,10,true_false,preview,306,Only the federal government can print money.,,true,,,True. It can also declare war.
+306,10,multiple_choice,main,,Which power is only for the federal government?,Print money|Give licenses|Run schools,0,,,"Powers only for the federal government: print money, declare war and make treaties."
+307,10,true_false,exercise,306,States can declare war.,,false,,,False. Declaring war is only for the federal government.
+308,10,select_blank,exercise,306,Only the federal government makes ___.,licenses|treaties|schools,1,,,Making treaties is a federal power.
+309,10,multiple_choice,exercise,306,Who can declare war?,A state|A city|Federal government,2,,,Only the federal government can declare war.
+310,10,true_false,exercise,306,States may print their own money.,,false,,,False. Printing money is only for the federal government.
+311,10,select_blank,exercise,306,The federal government prints ___.,money|licenses|tickets,0,,,Printing paper money is a federal power.
+312,10,multiple_choice,exercise,306,Which is federal only?,Give licenses|Make treaties|Run police,1,,,Making treaties belongs to the federal government.
+313,10,true_false,preview,314,States run schools and police.,,true,,,True. They also give driver's licenses.
+314,10,multiple_choice,main,,Which power is only for the states?,Print money|Make treaties|Driver's licenses,2,,,"Powers only for the states include providing schools, police and fire departments, and giving driver's licenses."
+315,10,select_blank,exercise,314,States give ___ licenses.,driver's|pilot's|army,0,,,Giving driver's licenses is a state power.
+316,10,multiple_choice,exercise,314,Who provides public schools?,Federal government|States|Army,1,,,Providing schooling and education is a state power.
+317,10,true_false,exercise,314,The federal government gives driver's licenses.,,false,,,False. States give driver's licenses.
+318,10,select_blank,exercise,314,States provide police ___.,treaties|money|protection,2,,,Police protection is a state power.
+319,10,true_false,exercise,314,Fire departments are a state power.,,true,,,"True. States provide safety, such as fire departments."
+320,10,true_false,exercise,314,Police departments are a state power.,,true,,,True. States provide police protection.
+321,10,true_false,preview,322,The 10th Amendment gives leftover powers to the states.,,true,,,True. Some go to the people.
+322,10,multiple_choice,main,,What does the 10th Amendment protect?,State powers|Voting|Free speech,0,,,The 10th Amendment says powers not given to the federal government belong to the states or the people.
+323,10,true_false,exercise,322,The 10th Amendment limits federal power.,,true,,,True. Powers not given to the federal government belong to the states or the people.
+324,10,multiple_choice,exercise,322,Which amendment covers state powers?,22nd|10th|27th,1,,,The 10th Amendment covers powers left to the states or the people.
+325,10,true_false,exercise,322,The 10th Amendment gives all power to Congress.,,false,,,False. Powers not given to the federal government belong to the states or the people.
+326,10,true_false,preview,327,Every state has a governor and a capital.,,true,,,True. Learn your own for the test.
+327,10,multiple_choice,main,,Who leads a state government?,President|Speaker|Governor,2,,,"A governor leads each state, and each state has a capital. Learn your own governor and state capital for the test."
+328,10,true_false,exercise,327,Your governor's name is the same in every state.,,false,,,False. Each state has its own governor.
+329,10,select_blank,exercise,327,Each state has a ___ and a capital.,governor|senator|president,0,,,Each state has a governor.
+330,10,multiple_choice,exercise,327,Where is a state's government based?,"Washington, D.C.|Its capital|A border",1,,,The state capital is where its government is based.
+331,10,true_false,exercise,327,You should know your own state's capital.,,true,,,True. The civics test asks for your state's capital.
+332,10,true_false,preview,333,"Courts, states and the federal government each have powers.",,true,,,True. The Constitution divides them.
+333,10,multiple_choice,main,,Which court is the highest?,State court|City court|Supreme Court,2,,,The Supreme Court is the highest court in the United States.
+334,10,match_pairs,exercise,333,Match each item to its meaning.,Judicial branch↔Explains laws|Supreme Court↔Highest court|10th Amendment↔State powers|Governor↔Leads a state,,,,Each item names part of the court system or the federal-state balance.
+335,10,select_blank,exercise,333,Only the federal government can ___ war.,declare|stop|cancel,0,,,Declaring war is a federal power.
+336,10,true_false,exercise,333,States provide schools and police.,,true,,,True. Those are state powers.
+337,10,multiple_choice,exercise,333,How many Supreme Court seats are there?,Five|Nine|Twelve,1,,,The Supreme Court has nine seats.
+338,10,true_false,exercise,333,Justices are elected every four years.,,false,,,False. Justices serve for life.
+339,10,select_blank,exercise,333,Leftover powers go to the ___.,army|courts|states,2,,,The 10th Amendment gives them to the states or the people.
+340,10,match_pairs,exercise,333,"Match each term, round 1.",Veto↔Reject a bill|Commander in Chief↔Head of military|Cabinet↔Presidential advisers|Electoral College↔Elects the president|Supreme Court↔Nine justices,,,,Each term goes with its short meaning.
+341,11,true_false,preview,342,Only US citizens can vote in federal elections.,,true,,,True. Citizens can also serve on a jury.
+342,11,multiple_choice,main,,Who can vote in federal elections?,Citizens|Residents|Visitors,0,,,"Only citizens can vote in federal elections. Voting amendments say citizens 18+, women and any race can vote; no poll tax."
+343,11,true_false,exercise,342,You must pay a poll tax to vote.,,false,,,False. An amendment says you don't have to pay a poll tax.
+344,11,select_blank,exercise,342,Citizens ___ and older can vote.,21|18|16,1,,,Citizens eighteen and older can vote.
+345,11,multiple_choice,exercise,342,Who can serve on a jury?,Visitors|Tourists|Citizens,2,,,Only citizens can serve on a jury.
+346,11,true_false,exercise,342,Women gained the right to vote through an amendment.,,true,,,"True. An amendment says any citizen, women and men, can vote."
+347,11,true_false,preview,348,People can become citizens by being born in the US.,,true,,,True. They can also naturalize.
+348,11,multi_select,main,,Pick ways to become a citizen.,US birth|Naturalize|Derive citizenship|Buy property|Win lottery,0|1|2,,,"People become citizens by being born in the US, by naturalizing, or by deriving citizenship through their parents."
+349,11,true_false,exercise,348,Owning a house makes you a citizen.,,false,,,"False. Citizenship comes through birth, naturalization or a parent."
+350,11,multiple_choice,exercise,348,Which is a way to become a citizen?,Naturalize|Rent|Visit,0,,,Naturalizing is a way to become a citizen.
+351,11,true_false,exercise,348,Birth in the US can make someone a citizen.,,true,,,True. This is under the 14th Amendment's conditions.
+352,11,true_false,exercise,348,Derive citizenship means gaining it through a parent.,,true,,,True. Congress sets the conditions.
+353,11,select_blank,exercise,348,Birth in the ___ can give citizenship.,UN|US|EU,1,,,Being born in the United States can give citizenship.
+354,11,select_blank,exercise,348,People who go through the process ___.,relocate|resign|naturalize,2,,,Naturalize is the word for gaining citizenship through the process.
+355,12,true_false,preview,356,Freedom of speech is a right of everyone living here.,,true,,,True. So are assembly and religion.
+356,12,multi_select,main,,Pick rights of everyone in the US.,Free speech|Assembly|Religion|Free housing|Free cars,0|1|2,,,"Everyone living in the US has freedom of expression (speech), freedom of assembly and freedom of religion."
+357,12,multiple_choice,exercise,356,Which is a right of everyone?,Free speech|Free travel|Free cars,0,,,Freedom of speech is a right of everyone living in the US.
+358,12,true_false,exercise,356,Freedom of assembly means gathering peacefully.,,true,,,True. People may meet in groups.
+359,12,select_blank,exercise,356,Freedom of ___ lets you practice any faith.,assembly|religion|speech,1,,,Freedom of religion protects your faith.
+360,12,true_false,exercise,356,Only citizens have freedom of speech.,,false,,,False. Everyone living in the US has these rights.
+361,12,multiple_choice,exercise,356,Freedom of expression includes ___.,Voting|Taxes|Speech,2,,,Freedom of expression includes free speech.
+362,12,select_blank,exercise,356,Freedom of ___ lets people meet in groups.,assembly|religion|speech,0,,,Freedom of assembly protects peaceful meetings.
+363,12,true_false,preview,364,The Pledge of Allegiance shows loyalty to the United States.,,true,,,True. It also honors the flag.
+364,12,multiple_choice,main,,To what do we pledge loyalty?,The president|The flag|The army,1,,,In the Pledge of Allegiance we show loyalty to the United States and the flag.
+365,12,true_false,exercise,364,We pledge loyalty to the president.,,false,,,False. We pledge loyalty to the United States and the flag.
+366,12,select_blank,exercise,364,The Pledge shows loyalty to the ___.,army|anthem|flag,2,,,It shows loyalty to the flag and the United States.
+367,12,multiple_choice,exercise,364,Which promise shows loyalty to the flag?,The Pledge|The anthem|The motto,0,,,The Pledge of Allegiance does.
+368,12,true_false,preview,369,New citizens promise to defend the Constitution.,,true,,,True. They also promise to obey the laws.
+369,12,multi_select,main,,Pick promises in the Oath of Allegiance.,Defend Constitution|Obey laws|No taxes|Never vote,0|1,,,"In the Oath of Allegiance, new citizens promise to give up loyalty to other countries, defend the Constitution and obey the laws."
+370,12,true_false,exercise,369,New citizens promise to give up loyalty to other countries.,,true,,,True. It is one of the oath's promises.
+371,12,select_blank,exercise,369,Citizens promise to ___ the Constitution.,ignore|defend|rewrite,1,,,They promise to defend the Constitution.
+372,12,multiple_choice,exercise,369,Who takes the Oath of Allegiance?,Voters|Jurors|New citizens,2,,,New citizens take the oath at their ceremony.
+373,12,true_false,exercise,369,The oath includes obeying US laws.,,true,,,True. Obeying the laws is one of the promises.
+374,12,select_blank,exercise,369,The Oath of ___ is taken by new citizens.,Allegiance|Office|Silence,0,,,It is called the Oath of Allegiance.
+375,12,true_false,exercise,369,New citizens keep full loyalty to their old country.,,false,,,False. They promise to give up loyalty to other countries.
+376,12,true_false,preview,377,Voting is one way to take part in civic life.,,true,,,True. Many other ways count too.
+377,12,multi_select,main,,Pick examples of civic participation.,Vote|Join groups|Ignore elections|Avoid taxes,0|1,,,"Civic participation: vote, run for office, join a group. Other ways to serve the country: pay taxes or serve in the military."
+378,12,true_false,exercise,377,Contacting an elected official is civic participation.,,true,,,True. Giving officials your opinion counts.
+379,12,select_blank,exercise,377,Americans serve by paying ___.,tolls|taxes|rent,1,,,Paying taxes is one way Americans serve their country.
+380,12,multiple_choice,exercise,377,Which is a way Americans serve their country?,Skipping votes|Ignoring laws|Military service,2,,,Serving in the military is one way.
+381,12,true_false,exercise,377,Joining a community group counts as civic participation.,,true,,,True. Joining a civic or community group counts.
+382,12,true_false,preview,383,Men ages 18 to 25 must register for Selective Service.,,true,,,True. It is required by law.
+383,12,multiple_choice,main,,Why pay federal taxes?,Required by law|Optional|A tradition,0,,,"Paying federal taxes is required by law under the 16th Amendment. Men ages 18 to 25 register for Selective Service, which makes a draft fair."
+384,12,select_blank,exercise,383,The 16th Amendment covers federal ___.,voting|taxes|speech,1,,,Required federal taxes come from the 16th Amendment.
+385,12,true_false,exercise,383,Paying federal taxes is required by law.,,true,,,True. It is also a civic duty.
+386,12,multiple_choice,exercise,383,Who registers for Selective Service?,All adults|Women only|Men 18-25,2,,,Men ages 18 through 25 register.
+387,12,true_false,exercise,383,Selective Service makes a draft fair.,,true,,,True. Registration makes a draft fair if one is needed.
+388,12,select_blank,exercise,383,Selective Service registration: ages 18 to ___.,25|30|21,0,,,The age range is 18 through 25.
+389,12,multiple_choice,exercise,383,Which amendment covers federal taxes?,22nd|16th|10th,1,,,The 16th Amendment is the answer USCIS gives.
+390,12,true_false,preview,391,Citizens have both rights and duties.,,true,,,True. Duties include paying taxes and obeying laws.
+391,12,multiple_choice,main,,Which group may vote in federal elections?,Visitors|Tourists|Citizens,2,,,Only citizens may vote in federal elections.
+392,12,match_pairs,exercise,391,Match each item to its meaning.,Pledge↔Loyalty to flag|Oath↔New citizens' promise|Civic participation↔Voting and joining|Selective Service↔Men 18-25,,,,"Each item is a right, duty or promise of citizenship."
+393,12,true_false,exercise,391,Everyone living here has freedom of religion.,,true,,,True. It is a right of everyone living in the US.
+394,12,select_blank,exercise,391,New citizens promise to obey ___.,laws|traffic|fashion,0,,,They promise to obey the laws of the United States.
+395,12,true_false,exercise,391,Paying federal taxes is a civic duty.,,true,,,True. It is required by law.
+396,12,multiple_choice,exercise,391,Which freedom covers peaceful meetings?,Religion|Assembly|Voting,1,,,Freedom of assembly covers peaceful meetings.
+397,12,true_false,exercise,391,The Pledge shows loyalty to the president.,,false,,,False. It shows loyalty to the United States and the flag.
+398,13,true_false,preview,399,Many colonists came for religious freedom.,,true,,,True. Others came for opportunity or to escape persecution.
+399,13,multiple_choice,main,,Name one reason colonists came.,Higher taxes|Military draft|Religious freedom,2,,,"Colonists came for freedom, including political liberty and religious freedom, for economic opportunity, and to escape persecution."
+400,13,true_false,exercise,399,Some colonists came to escape persecution.,,true,,,True. Escaping persecution was a reason to come.
+401,13,select_blank,exercise,399,Colonists wanted religious ___.,freedom|taxes|rules,0,,,Religious freedom was a major reason.
+402,13,multiple_choice,exercise,399,Which was a reason to colonize?,Higher taxes|Economic opportunity|Military duty,1,,,Economic opportunity attracted many colonists.
+403,13,true_false,exercise,399,Colonists came to pay British taxes.,,false,,,"False. They came for freedom, opportunity and to escape persecution."
+404,13,select_blank,exercise,399,Many colonists sought economic ___.,power|war|opportunity,2,,,Economic opportunity was a reason.
+405,13,multiple_choice,exercise,399,Escaping persecution is a ___.,reason|holiday|law,0,,,It was one reason colonists came.
+406,13,true_false,preview,407,Native Americans lived here before Europeans arrived.,,true,,,True. They are also called American Indians.
+407,13,multiple_choice,main,,Who lived in America before Europeans?,Colonists|Native Americans|Pilgrims,1,,,Native Americans (American Indians) lived here before Europeans arrived. Enslaved Africans were taken and sold as slaves.
+408,13,true_false,exercise,407,Africans were taken and sold as slaves.,,true,,,True. People from Africa were taken and sold as slaves.
+409,13,select_blank,exercise,407,___ Americans lived here first.,Colonial|Spanish|Native,2,,,Native Americans lived here before Europeans.
+410,13,multiple_choice,exercise,407,Which group was taken and sold as slaves?,Africans|Colonists|Pilgrims,0,,,People from Africa were taken and sold as slaves.
+411,13,true_false,exercise,407,Colonists were the first people in America.,,false,,,False. Native Americans lived here first.
+412,13,true_false,preview,413,The colonists fought the American Revolution for independence.,,true,,,True. Britain taxed them without giving them a vote.
+413,13,multiple_choice,main,,What war won independence from Britain?,Civil War|American Revolution|Gulf War,1,,,"The American Revolution won independence from Britain. Reasons: high taxes, taxation without representation (no vote) and no self-government."
+414,13,true_false,exercise,413,Taxation without representation means taxes with no vote.,,true,,,True. The colonists had no vote in Britain's government.
+415,13,select_blank,exercise,413,The American ___ won independence.,Depression|Purchase|Revolution,2,,,The American Revolution won independence from Britain.
+416,13,multiple_choice,exercise,413,Name one reason for independence.,High taxes|Free land|New roads,0,,,High taxes were one reason.
+417,13,true_false,exercise,413,The colonists had self-government under Britain.,,false,,,False. Not having self-government was a reason to declare independence.
+418,14,true_false,preview,419,Thomas Jefferson wrote the Declaration of Independence.,,true,,,True. It was adopted in 1776.
+419,14,multiple_choice,main,,Who wrote the Declaration of Independence?,Franklin|Jefferson|Madison,1,,,"Thomas Jefferson wrote the Declaration of Independence, adopted on July 4, 1776."
+420,14,select_blank,exercise,419,The Declaration was adopted on July ___.,14|1|4,2,,,"It was adopted on July 4, 1776."
+421,14,true_false,exercise,419,Washington wrote the Declaration.,,false,,,False. Thomas Jefferson wrote it.
+422,14,multiple_choice,exercise,419,When was the Declaration adopted?,1776|1787|1812,0,,,The Declaration of Independence was adopted in 1776.
+423,14,true_false,exercise,419,Jefferson is the Declaration's author.,,true,,,True. Thomas Jefferson wrote it.
+424,14,true_false,preview,425,The British surrendered at Yorktown.,,true,,,True. Valley Forge and Saratoga were also key events.
+425,14,multiple_choice,main,,Name one Revolution event.,Gettysburg|Yorktown|Pearl Harbor,1,,,"Important Revolution events include Valley Forge, Saratoga and Yorktown, where the British surrendered."
+426,14,select_blank,exercise,425,The British surrendered at ___.,Saratoga|Appomattox|Yorktown,2,,,The British surrendered at Yorktown.
+427,14,multiple_choice,exercise,425,Which was a Revolution event?,Valley Forge|Gettysburg|Appomattox,0,,,Valley Forge was an encampment during the Revolution.
+428,14,true_false,exercise,425,Saratoga was a battle of the Revolution.,,true,,,True. Saratoga is on the official list.
+429,14,true_false,exercise,425,Gettysburg was a Revolution battle.,,false,,,False. Gettysburg was a Civil War battle.
+430,14,select_blank,exercise,425,Valley ___ was a Revolution encampment.,Creek|Forge|Hill,1,,,The place is Valley Forge.
+431,14,true_false,exercise,425,Valley Forge was an encampment.,,true,,,True. USCIS lists it as Valley Forge (Encampment).
+432,14,true_false,preview,433,Thirteen colonies became the first states.,,true,,,"True. They include New Hampshire, Massachusetts, Rhode Island, Connecticut and New York."
+433,14,multi_select,main,,Pick original states.,Virginia|Georgia|Delaware|Texas|Ohio,0|1|2,,,"The other original states: New Jersey, Pennsylvania, Delaware, Maryland, Virginia, North Carolina, South Carolina and Georgia."
+434,14,multiple_choice,exercise,433,Which is an original state?,Texas|Ohio|Maryland,2,,,Maryland is one of the 13 original states.
+435,14,true_false,exercise,433,Texas was one of the 13 original states.,,false,,,False. Texas joined later.
+436,14,true_false,exercise,433,Pennsylvania was an original state.,,true,,,True. It is on the list of 13.
+437,14,select_blank,exercise,433,New ___ and New Jersey were original states.,York|Orleans|Mexico,0,,,New York and New Jersey were both among the 13.
+438,14,select_blank,exercise,433,Both Carolinas were original ___.,cities|states|forts,1,,,North and South Carolina were two of the 13 original states.
+439,14,multiple_choice,exercise,433,How many original states were there?,50|27|13,2,,,There were 13 original states.
+440,14,true_false,preview,441,The Constitution was written in 1787.,,true,,,True. The Federalist Papers helped it pass.
+441,14,multiple_choice,main,,What supported passing the Constitution?,Federalist Papers|Gettysburg Address|Anthem,0,,,"The Constitution was written in 1787. The Federalist Papers, by Madison, Hamilton and Jay as Publius, supported it."
+442,14,multiple_choice,exercise,441,What was written in 1787?,Declaration|Constitution|Treaty,1,,,The Constitution was written in 1787.
+443,14,select_blank,exercise,441,The Federalist Papers writers used the name ___.,Jefferson|Franklin|Publius,2,,,They signed as Publius.
+444,14,true_false,exercise,441,The Federalist Papers supported the Constitution.,,true,,,True. They helped people understand and support it.
+445,14,multiple_choice,exercise,441,Who wrote the Federalist Papers?,Madison|Lincoln|Grant,0,,,"Madison, Hamilton and Jay wrote them."
+446,14,true_false,exercise,441,Washington wrote the Federalist Papers.,,false,,,"False. Madison, Hamilton and Jay did."
+447,14,select_blank,exercise,441,The Federalist Papers helped explain the ___.,Pledge|Constitution|Oath,1,,,They helped people understand the Constitution.
+448,14,true_false,preview,449,George Washington was the first president.,,true,,,True. He also led the Continental Army.
+449,14,multiple_choice,main,,Name one thing Washington is famous for.,Third president|Wrote Declaration|First president,2,,,George Washington was the first president and general of the Continental Army. Benjamin Franklin founded the first free public libraries and was first Postmaster General.
+450,14,select_blank,exercise,449,George Washington was the ___ president.,first|third|fourth,0,,,Washington was the first president.
+451,14,true_false,exercise,449,Franklin was the first Postmaster General.,,true,,,True. He was also a diplomat and inventor.
+452,14,multiple_choice,exercise,449,Who founded the first free public libraries?,Washington|Franklin|Jefferson,1,,,Benjamin Franklin founded the first free public libraries.
+453,14,true_false,exercise,449,Washington led the Continental Army.,,true,,,True. He was general of the Continental Army.
+454,14,true_false,preview,455,The United States bought Louisiana from France in 1803.,,true,,,True. The deal doubled the nation's size.
+455,14,multiple_choice,main,,What territory did the US buy in 1803?,Texas|Florida|Louisiana,2,,,Jefferson doubled the nation's size via the Louisiana Purchase (1803). James Madison was fourth president; Alexander Hamilton first Treasury Secretary.
+456,14,select_blank,exercise,455,The Louisiana Purchase was from ___.,France|Spain|Britain,0,,,The United States bought Louisiana from France.
+457,14,true_false,exercise,455,Madison was the fourth president.,,true,,,True. James Madison served as the fourth president.
+458,14,multiple_choice,exercise,455,Who was the first Secretary of the Treasury?,Madison|Hamilton|Jefferson,1,,,Alexander Hamilton was the first Secretary of the Treasury.
+459,14,true_false,exercise,455,Hamilton was the third president.,,false,,,False. Jefferson was the third president.
+460,14,select_blank,exercise,455,The Louisiana Purchase happened in ___.,1776|1865|1803,2,,,It happened in 1803.
+461,14,true_false,exercise,455,Jefferson doubled the nation's size.,,true,,,True. The Louisiana Purchase doubled the size of the United States.
+462,14,true_false,preview,463,Many founders shaped the new nation.,,true,,,"True. Washington, Jefferson, Madison and Hamilton are examples."
+463,14,multiple_choice,main,,Who was the first president?,Washington|Jefferson|Madison,0,,,George Washington was the first president.
+464,14,match_pairs,exercise,463,Match each item to its key fact.,Declaration↔Jefferson|Federalist Papers↔Publius|Louisiana Purchase↔1803|Yorktown↔British surrender,,,,Each item has one key fact to remember.
+465,14,select_blank,exercise,463,The Constitution was written in ___.,1776|1787|1803,1,,,The Constitution was written in 1787.
+466,14,multiple_choice,exercise,463,Which founder led the Continental Army?,Hamilton|Franklin|Washington,2,,,George Washington led the Continental Army.
+467,14,true_false,exercise,463,Louisiana came from France.,,true,,,True. The United States bought it in 1803.
+468,14,true_false,exercise,463,Taxation without representation led to the Revolution.,,true,,,True. It was one reason Americans declared independence.
+469,14,select_blank,exercise,463,The first thirteen states were once ___.,colonies|cities|forts,0,,,The 13 original states began as colonies.
+470,14,match_pairs,exercise,463,"Match each term, round 1.",Pledge of Allegiance↔Flag promise|Oath of Allegiance↔New citizens' promise|Civic participation↔Taking part publicly|Selective Service↔Draft registration|Taxation without representation↔Colonists' complaint,,,,Each term goes with its short meaning.
+471,15,true_false,preview,472,The War of 1812 was fought in the 1800s.,,true,,,True. So were the Mexican-American and Spanish-American wars.
+472,15,multiple_choice,main,,Which war was fought in the 1800s?,Korean War|Spanish-American War|Vietnam War,1,,,"Wars of the 1800s include the War of 1812, the Mexican-American War, the Civil War and the Spanish-American War."
+473,15,multiple_choice,exercise,472,Which war was in the 1800s?,Korean War|Vietnam War|Mexican-American War,2,,,The Mexican-American War was fought in the 1800s.
+474,15,true_false,exercise,472,The Spanish-American War was fought in the 1800s.,,true,,,True. It is on the official list.
+475,15,true_false,exercise,472,The Korean War was fought in the 1800s.,,false,,,False. The Korean War was fought in the 1900s.
+476,15,select_blank,exercise,472,The Mexican-___ War was fought in the 1800s.,American|Spanish|Canadian,0,,,The full name is the Mexican-American War.
+477,15,multiple_choice,exercise,472,The Civil War was fought in the ___.,1700s|1800s|1900s,1,,,The Civil War was fought in the 1800s.
+478,15,true_false,exercise,472,The War of 1812 was in the 1800s.,,true,,,True. The year 1812 is in the 1800s.
+479,15,true_false,preview,480,The Civil War pitted the North against the South.,,true,,,True. It ended slavery.
+480,15,multiple_choice,main,,What war ended slavery?,Revolution|Gulf War|Civil War,2,,,"The Civil War, fought between the North and the South, ended slavery in the United States."
+481,15,true_false,exercise,480,The Civil War ended slavery.,,true,,,True. It is the war that ended slavery.
+482,15,select_blank,exercise,480,The Civil War was North versus ___.,South|East|West,0,,,It was fought between the North and the South.
+483,15,multiple_choice,exercise,480,Which war was between North and South?,Korean War|Civil War|Vietnam War,1,,,The Civil War was fought between the North and the South.
+484,15,true_false,exercise,480,The Revolution ended slavery.,,false,,,False. The Civil War ended slavery.
+485,15,select_blank,exercise,480,The ___ War ended slavery.,Cold|Korean|Civil,2,,,The Civil War ended slavery.
+486,15,multiple_choice,exercise,480,The North and the South fought the ___.,Civil War|Gulf War|Vietnam War,0,,,They fought the Civil War.
+487,15,true_false,preview,488,Abraham Lincoln was the sixteenth president.,,true,,,True. He led the country during the Civil War.
+488,15,multiple_choice,main,,Name one thing Lincoln is famous for.,Wrote Declaration|Saved Union|Led Revolution,1,,,Abraham Lincoln was the 16th president who saved the Union and delivered the Gettysburg Address. The Civil War ended with the surrender at Appomattox.
+489,15,select_blank,exercise,488,Lincoln was the ___ president.,1st|3rd|16th,2,,,Lincoln was the 16th president.
+490,15,true_false,exercise,488,Lincoln delivered the Gettysburg Address.,,true,,,True. He delivered it during the Civil War.
+491,15,multiple_choice,exercise,488,Where did the Civil War end?,Appomattox|Yorktown|Saratoga,0,,,The Civil War ended with the surrender at Appomattox.
+492,15,true_false,exercise,488,Lincoln led the Revolution.,,false,,,False. Washington led the Continental Army; Lincoln led during the Civil War.
+493,15,select_blank,exercise,488,Lincoln saved the ___.,Navy|Union|Senate,1,,,Lincoln is famous for saving the Union.
+494,15,multiple_choice,exercise,488,Which was a Civil War event?,Yorktown|Valley Forge|Gettysburg,2,,,Gettysburg was a Civil War battle.
+495,15,true_false,preview,496,The Emancipation Proclamation freed slaves in the Confederacy.,,true,,,True. Lincoln issued it.
+496,15,multiple_choice,main,,What did the Emancipation Proclamation do?,Freed slaves|Ended Congress|Created states,0,,,"Lincoln's Emancipation Proclamation freed slaves in the Confederacy, most Southern states."
+497,15,select_blank,exercise,496,The Emancipation Proclamation freed ___.,soldiers|slaves|states,1,,,It freed slaves.
+498,15,multiple_choice,exercise,496,Who issued the Emancipation Proclamation?,Jefferson|Washington|Lincoln,2,,,Abraham Lincoln issued it.
+499,15,true_false,exercise,496,It freed slaves in most Southern states.,,true,,,True. It applied to the Confederate states.
+500,15,multiple_choice,exercise,496,Which freed slaves in the Confederacy?,Emancipation Proclamation|Declaration|Constitution,0,,,The Emancipation Proclamation did.
+501,15,true_false,preview,502,The 14th Amendment makes people born here citizens.,,true,,,True. It also covers people who naturalize.
+502,15,multiple_choice,main,,Which amendment gives citizenship by birth?,15th|14th|19th,1,,,"The 14th Amendment says people born or naturalized in the US are citizens. The 15th Amendment gave all men the vote in 1870, during Reconstruction."
+503,15,select_blank,exercise,502,The ___ Amendment gave all men the vote.,14th|22nd|15th,2,,,The 15th Amendment gave all men the vote.
+504,15,true_false,exercise,502,Reconstruction followed the Civil War.,,true,,,True. It was the period after the war.
+505,15,multiple_choice,exercise,502,When did all men get the right to vote?,1870|1776|1920,0,,,The 15th Amendment did so in 1870.
+506,15,true_false,exercise,502,The 14th Amendment covers naturalized citizens too.,,true,,,True. It covers people born or naturalized in the US.
+507,15,select_blank,exercise,502,Reconstruction happened after the ___.,Revolution|Civil War|Depression,1,,,It happened after the Civil War.
+508,15,multiple_choice,exercise,502,Which amendment grants citizenship?,10th|16th|14th,2,,,The 14th Amendment grants citizenship by birth or naturalization.
+509,15,true_false,preview,510,Susan B. Anthony led the women's rights movement.,,true,,,True. So did Elizabeth Cady Stanton.
+510,15,multiple_choice,main,,Name a women's rights leader.,Anthony|Edison|Carnegie,0,,,"Women's rights leaders in the 1800s include Susan B. Anthony, Elizabeth Cady Stanton and Sojourner Truth."
+511,15,select_blank,exercise,510,Susan B. ___ led women's rights.,Stanton|Anthony|Truth,1,,,Her name was Susan B. Anthony.
+512,15,select_blank,exercise,510,Elizabeth Cady ___ led women's rights.,Anthony|Truth|Stanton,2,,,Her name was Elizabeth Cady Stanton.
+513,15,true_false,exercise,510,Sojourner Truth was a women's rights leader.,,true,,,True. She is on the official list.
+514,15,multiple_choice,exercise,510,Which was a women's rights leader?,Stanton|Edison|Ford,0,,,Elizabeth Cady Stanton was a women's rights leader.
+515,15,true_false,exercise,510,Thomas Edison led women's rights.,,false,,,False. He was an inventor.
+516,15,select_blank,exercise,510,These leaders worked in the ___.,1900s|1800s|1700s,1,,,They were leaders in the 1800s.
+517,15,true_false,preview,518,Many events shaped the nation before 1900.,,true,,,"True. They include the Revolution, the Civil War and Reconstruction."
+518,15,multiple_choice,main,,Which period followed the Civil War?,Revolution|Depression|Reconstruction,2,,,Reconstruction followed the Civil War.
+519,15,match_pairs,exercise,518,Match each item to its key fact.,Louisiana Purchase↔1803|Civil War↔North versus South|Emancipation Proclamation↔Freed slaves|14th Amendment↔Birth citizenship,,,,Each item has a key fact.
+520,15,select_blank,exercise,518,The Revolution ended with victory at ___.,Yorktown|Gettysburg|Appomattox,0,,,The British surrendered at Yorktown.
+521,15,true_false,exercise,518,Susan B. Anthony worked for women's rights.,,true,,,True. She was a leader in the 1800s.
+522,15,select_blank,exercise,518,The Civil War ended with surrender at ___.,Yorktown|Appomattox|Saratoga,1,,,The surrender at Appomattox ended the war.
+523,15,true_false,exercise,518,The 15th Amendment gave all men the vote.,,true,,,True. It did so in 1870.
+524,15,true_false,exercise,518,Hamilton wrote some Federalist Papers.,,true,,,"True. Madison, Hamilton and Jay wrote them."
+525,16,true_false,preview,526,World War II was fought in the 1900s.,,true,,,True. So were World War I and the Korean and Vietnam wars.
+526,16,multiple_choice,main,,Which war was fought in the 1900s?,Civil War|Mexican-American War|Vietnam War,2,,,"Wars of the 1900s include World War I, World War II, the Korean War, the Vietnam War and the Persian Gulf War."
+527,16,true_false,exercise,526,World War I was fought in the 1900s.,,true,,,True. It is on the official list.
+528,16,true_false,exercise,526,The Civil War was fought in the 1900s.,,false,,,False. It was fought in the 1800s.
+529,16,select_blank,exercise,526,The ___ War was fought in the 1900s.,Korean|Civil|Revolutionary,0,,,The Korean War was fought in the 1900s.
+530,16,true_false,exercise,526,The Vietnam War was a 1900s war.,,true,,,True. It is on the official list.
+531,16,multiple_choice,exercise,526,Which war was in the 1900s?,Civil War|Korean War|Mexican-American War,1,,,The Korean War was fought in the 1900s.
+532,16,select_blank,exercise,526,World War ___ was fought in the 1900s.,IV|VI|II,2,,,World War II was fought in the 1900s.
+533,16,true_false,exercise,526,World War II was fought in the 1800s.,,false,,,False. It was fought in the 1900s.
+534,16,true_false,exercise,526,The Vietnam War was fought in the 1800s.,,false,,,False. The Vietnam War was fought in the 1900s.
+535,16,true_false,preview,536,Japan attacked Pearl Harbor.,,true,,,True. That attack brought the US into World War II.
+536,16,multiple_choice,main,,Why did the US enter World War II?,Pearl Harbor|Gold rush|Oil prices,0,,,Why World War I? Germany attacked US ships. The US entered World War II after Japan bombed Pearl Harbor.
+537,16,true_false,exercise,536,Pearl Harbor led the US into World War II.,,true,,,True. Japan's attack on Pearl Harbor did.
+538,16,select_blank,exercise,536,Germany attacked US ___.,cities|ships|banks,1,,,Germany attacked US ships before World War I.
+539,16,multiple_choice,exercise,536,What event led the US into World War II?,Gettysburg|Yorktown|Pearl Harbor,2,,,Pearl Harbor did.
+540,16,true_false,exercise,536,Germany attacked US ships before World War I.,,true,,,True. That was one reason the US entered.
+541,16,true_false,preview,542,The 19th Amendment gave women the right to vote.,,true,,,True. It was ratified in 1920.
+542,16,multiple_choice,main,,When did all women get the right to vote?,1920|1870|1945,0,,,"The 19th Amendment gave all women the vote in 1920. The Great Depression, the longest economic downturn, began with the 1929 stock market crash."
+543,16,true_false,exercise,542,The Great Depression began in 1929.,,true,,,True. The 1929 stock market crash started it.
+544,16,select_blank,exercise,542,The 19th Amendment gave ___ the vote.,men|women|soldiers,1,,,It gave women the right to vote.
+545,16,multiple_choice,exercise,542,What began the Great Depression?,War|Drought|Stock crash,2,,,The stock market crash of 1929 began it.
+546,16,true_false,exercise,542,Women gained the vote in 1870.,,false,,,False. That year all men gained the vote; women got it in 1920.
+547,16,select_blank,exercise,542,The Great ___ began in 1929.,Depression|Awakening|Compromise,0,,,The Great Depression began with the 1929 crash.
+548,16,multiple_choice,exercise,542,Which amendment gave women the vote?,15th|19th|22nd,1,,,The 19th Amendment did.
+549,16,true_false,preview,550,Franklin Roosevelt was president during the Great Depression.,,true,,,True. He also led during World War II.
+550,16,multiple_choice,main,,Who was president in the Great Depression?,Eisenhower|Lincoln|Roosevelt,2,,,Franklin Roosevelt was president during the Great Depression and World War II. Dwight Eisenhower was a World War II general and the 34th president.
+551,16,select_blank,exercise,550,Roosevelt was president during World War ___.,II|I|III,0,,,Roosevelt led during World War II.
+552,16,true_false,exercise,550,Eisenhower was the 34th president.,,true,,,True. He was also a World War II general.
+553,16,multiple_choice,exercise,550,Who was a general in World War II?,Roosevelt|Eisenhower|Washington,1,,,Dwight Eisenhower was a general in World War II.
+554,16,true_false,exercise,550,Lincoln led the US in World War II.,,false,,,False. Franklin Roosevelt did.
+555,16,true_false,preview,556,The Soviet Union was America's main Cold War rival.,,true,,,True. Its full name was the Union of Soviet Socialist Republics.
+556,16,multiple_choice,main,,Who was the main rival in the Cold War?,Germany|China|Soviet Union,2,,,The Cold War was a rivalry between the US and Soviet Union. The US entered the Korean and Vietnam wars to stop communism.
+557,16,select_blank,exercise,556,The Cold War rival was the ___ Union.,Soviet|Roman|British,0,,,The rival was the Soviet Union.
+558,16,true_false,exercise,556,Communism was a main Cold War concern.,,true,,,True. The US wanted to stop its spread.
+559,16,multiple_choice,exercise,556,Why did the US fight in Korea?,Gain land|Stop communism|Free slaves,1,,,The US entered the Korean War to stop the spread of communism.
+560,16,true_false,exercise,556,Germany was the main Cold War rival.,,false,,,False. The Soviet Union was the rival.
+561,16,multiple_choice,exercise,556,Why did the US enter Vietnam?,Win oil|End slavery|Stop communism,2,,,It entered to stop the spread of communism.
+562,16,select_blank,exercise,556,The US fought to stop the spread of ___.,communism|voting|trade,0,,,Stopping communism drove US actions in Korea and Vietnam.
+563,16,true_false,preview,564,"Martin Luther King, Jr. fought for civil rights.",,true,,,True. He worked for equality for all Americans.
+564,16,multiple_choice,main,,What did the civil rights movement do?,Raised taxes|Ended discrimination|Won independence,1,,,"The civil rights movement fought to end racial discrimination. Martin Luther King, Jr. fought for civil rights and equality for all Americans."
+565,16,true_false,exercise,564,Dr. King worked for equality for all Americans.,,true,,,True. Equality for all was his goal.
+566,16,select_blank,exercise,564,The civil rights movement fought racial ___.,taxes|wars|discrimination,2,,,It fought to end racial discrimination.
+567,16,multiple_choice,exercise,564,Who led the civil rights movement?,King|Lincoln|Edison,0,,,"Martin Luther King, Jr. is the famous leader."
+568,16,true_false,exercise,564,The civil rights movement ended the Cold War.,,false,,,False. It fought to end racial discrimination.
+569,16,true_false,preview,570,"Terrorists attacked the United States on September 11, 2001.",,true,,,True. The War on Terror followed.
+570,16,multiple_choice,main,,"What happened on September 11, 2001?",Moon landing|Terrorist attacks|Market crash,1,,,"Terrorists attacked the US on September 11, 2001, leading to the War on Terror. The Persian Gulf War forced Iraq out of Kuwait."
+571,16,select_blank,exercise,570,The Persian Gulf War forced Iraq out of ___.,Iran|Syria|Kuwait,2,,,The war forced the Iraqi military from Kuwait.
+572,16,true_false,exercise,570,The War on Terror followed September 11.,,true,,,True. It followed the 2001 attacks.
+573,16,select_blank,exercise,570,The ___ on Terror followed September 11.,War|Treaty|Day,0,,,The War on Terror followed the attacks.
+574,16,true_false,exercise,570,September 11 happened in 1991.,,false,,,False. It happened in 2001.
+575,16,select_blank,exercise,570,"Terrorists attacked on September ___, 2001.",9|11|14,1,,,The date was September 11.
+576,16,multiple_choice,exercise,570,Why was the Persian Gulf War fought?,Free slaves|Stop communism|Free Kuwait,2,,,To force Iraq's military out of Kuwait.
+577,16,true_false,preview,578,The Cherokee and Navajo are American Indian tribes.,,true,,,True. So are the Sioux and Apache.
+578,16,multiple_choice,main,,Name one American Indian tribe.,Cherokee|Roman|Viking,0,,,"American Indian tribes include the Cherokee, Navajo, Sioux and Apache. American innovations include the light bulb, the airplane and the assembly line."
+579,16,select_blank,exercise,578,The ___ are an American Indian tribe.,Mongol|Navajo|Celtic,1,,,The Navajo are an American Indian tribe.
+580,16,multiple_choice,exercise,578,Which is an American innovation?,Telescope|Printing press|Light bulb,2,,,The light bulb is on the official list.
+581,16,true_false,exercise,578,The airplane is an American innovation.,,true,,,True. USCIS lists it.
+582,16,true_false,exercise,578,The Sioux are not an American Indian tribe.,,false,,,False. The Sioux are on the official list.
+583,16,true_false,preview,584,American history covers many wars and movements.,,true,,,True. Review the key facts.
+584,16,multiple_choice,main,,Who was America's main rival after World War II?,Soviet Union|Germany|Japan,0,,,The Soviet Union was the main Cold War rival.
+585,16,match_pairs,exercise,584,Match each item to its key fact.,World War II↔Pearl Harbor|Great Depression↔1929 crash|Civil rights movement↔Equality|Cold War↔Soviet rivalry,,,,Each item has a key fact.
+586,16,select_blank,exercise,584,The 19th Amendment gave women the ___.,draft|vote|budget,1,,,It gave women the right to vote.
+587,16,true_false,exercise,584,Terrorists attacked the US in 2001.,,true,,,True. It happened on September 11.
+588,16,multiple_choice,exercise,584,Which war ended slavery in the US?,Gulf War|Korean War|Civil War,2,,,The Civil War ended slavery.
+589,16,true_false,exercise,584,Franklin Roosevelt led during World War II.,,true,,,True. He was president then.
+590,16,true_false,exercise,584,The Cold War was fought mainly in the 1800s.,,false,,,False. It took place in the 1900s.
+591,16,match_pairs,exercise,584,"Match each term, round 1.",Federalist Papers↔Essays backing Constitution|Emancipation Proclamation↔1863 freedom order|Reconstruction↔Rebuilding after war|Great Depression↔1930s downturn|Cold War↔Rivalry with Soviets,,,,Each term goes with its short meaning.
+592,1,multiple_choice,exam,,How many correct answers pass the test?,12|10|20,0,,,Twenty questions are asked and 12 correct answers pass.
+593,1,multiple_choice,exam,,The 65/20 rule needs 20 years as a:,Registered voter|Permanent resident|Naturalized citizen,1,,,Those applicants study 20 questions and need 6 correct.
+594,2,multiple_choice,exam,,The United States capital is:,"Philadelphia, PA|New York|Washington, D.C.",2,,,The Statue of Liberty stands in New York Harbor.
+595,4,multiple_choice,exam,,The flag's 50 stars represent the:,States|Founders|Amendments,0,,,The 13 stripes represent the original colonies.
+596,2,multiple_choice,exam,,E Pluribus Unum is the nation's first:,Pledge|Motto|Anthem,1,,,It was the nation's first motto.
+597,3,multiple_choice,exam,,Independence Day celebrates independence from:,Switzerland|Portugal|Britain,2,,,It is also called the country's birthday.
+598,3,multiple_choice,exam,,Which holiday honors soldiers who died in service?,Memorial Day|Independence Day|Columbus Day,0,,,Veterans Day honors all who served.
+599,4,multiple_choice,exam,,The US is a:,Empire|Republic|Monarchy,1,,,Citizens elect leaders to govern for them.
+600,15,multiple_choice,exam,,The supreme law of the land is the:,Emancipation Proclamation|Federalist Papers|Constitution,2,,,It sets the government's powers and protects rights.
+601,4,multiple_choice,exam,,We the People expresses:,Self-government|Hereditary monarchy|Military rule,0,,,The government rules by consent of the governed.
+602,4,multiple_choice,exam,,The Constitution is changed by:,Court notes|Amendments|Executive orders,1,,,An amendment is a formal change.
+603,4,multiple_choice,exam,,The Bill of Rights protects basic:,Taxes|Borders|Rights,2,,,It covers people living in the United States.
+604,14,multiple_choice,exam,,Which document declared independence?,Declaration|Mayflower Compact|Federalist Papers,0,,,"It also names Life, Liberty and the pursuit of Happiness."
+605,5,multiple_choice,exam,,The US economic system is:,Mercantilism|Capitalism|Socialism,1,,,It is also called a free market economy.
+606,5,multiple_choice,exam,,The rule of law means everyone:,Votes yearly|Pays double|Obeys laws,2,,,Even leaders and the government.
+607,5,multiple_choice,exam,,Three branches exist to limit:,Power|Taxes|Elections,0,,,Checks and balances keep any one part from dominating.
+608,6,multiple_choice,exam,,Writing federal laws belongs to which branch?,Administrative|Legislative|Executive,1,,,The president leads the executive branch.
+609,9,multiple_choice,exam,,Congress has the Senate and the:,Cabinet|Court|House,2,,,Congress writes federal laws.
+610,6,multiple_choice,exam,,Congress has the power to:,Declare war|Appoint justices|Command troops,0,,,It also makes the federal budget.
+611,7,multiple_choice,exam,,A senator's term is:,Four years|Six years|Two years,1,,,"There are 100 senators, two per state."
+612,7,multiple_choice,exam,,Each state has two senators for equal:,Legislation|Administration|Representation,2,,,This was the Great Compromise.
+613,8,multiple_choice,exam,,A House member's term is:,Two years|Four years|Six years,0,,,The House has 435 voting members.
+614,8,multiple_choice,exam,,A state's number of representatives depends on its:,Age|Population|Size,1,,,Each member represents citizens in a district.
+615,9,multiple_choice,exam,,A presidential term lasts:,Eight years|Two years|Four years,2,,,The 22nd Amendment limits presidents to two terms.
+616,9,multiple_choice,exam,,"If the president cannot serve, who takes over?",Vice President|Speaker|Chief Justice,0,,,This is presidential succession.
+617,9,multiple_choice,exam,,The Commander in Chief of the military is the:,Senate|President|Vice President,1,,,The president also signs bills into law.
+618,9,multiple_choice,exam,,The Electoral College decides who is elected:,Congressman|Governor|President,2,,,It is a compromise between a popular vote and Congress choosing.
+619,10,multiple_choice,exam,,Supreme Court justices serve:,For life|Six years|Eight years,0,,,The Court has nine seats.
+620,10,multiple_choice,exam,,Only the federal government can:,License drivers|Print money|Run schools,1,,,Declaring war and making treaties are others.
+621,10,multiple_choice,exam,,A power only for the states is to:,Declare war|Print money|Run schools,2,,,Police and fire departments are state powers too.
+622,10,multiple_choice,exam,,The 10th Amendment protects state:,Powers|Courts|Taxes,0,,,Powers not given to the federal government belong to the states or the people.
+623,10,multiple_choice,exam,,A state government is led by a:,Representative|Governor|Senator,1,,,Each state also has a capital.
+624,11,multiple_choice,exam,,Only citizens can vote in:,School elections|Neighborhood vote|Federal elections,2,,,"Voting amendments extended the vote to 18+, women and all races."
+625,12,multiple_choice,exam,,The Pledge shows loyalty to the flag and:,United States|President|Constitution,0,,,New citizens also take the Oath of Allegiance.
+626,12,multiple_choice,exam,,Federal taxes are required under the:,10th Amendment|16th Amendment|1st Amendment,1,,,Men ages 18 to 25 must register for Selective Service.
+627,13,multiple_choice,exam,,Many colonists came for religious:,Obligation|Taxation|Freedom,2,,,Others came for economic opportunity.
+628,13,multiple_choice,exam,,Who lived in America before Europeans?,Native Americans|Spanish colonists|Pilgrim settlers,0,,,They are also called American Indians.
+629,13,multiple_choice,exam,,Independence from Britain was won in the:,Mexican-American War|Revolution|Civil War,1,,,Reasons included high taxes and taxation without representation.
+630,14,multiple_choice,exam,,The Declaration of Independence was written by:,George Washington|James Madison|Thomas Jefferson,2,,,"It was adopted on July 4, 1776."
+631,14,multiple_choice,exam,,The British surrendered at:,Yorktown|Saratoga|Valley Forge,0,,,It was an important Revolution event.
+632,14,multiple_choice,exam,,The Constitution was written in:,1812|1787|1776,1,,,The Federalist Papers supported its passage.
+633,14,multiple_choice,exam,,George Washington was the first:,Chief Justice|Speaker|President,2,,,He was also general of the Continental Army.
+634,14,multiple_choice,exam,,The Louisiana Purchase happened in:,1803|1776|1865,0,,,Jefferson doubled the nation's size.
+635,15,multiple_choice,exam,,Which war ended slavery?,Korean War|Civil War|Revolution,1,,,It was fought between the North and the South.
+636,15,multiple_choice,exam,,Lincoln was the:,11th president|4th president|16th president,2,,,He saved the Union and delivered the Gettysburg Address.
+637,15,multiple_choice,exam,,The Emancipation Proclamation freed slaves in the:,Confederacy|Northern states|Territories,0,,,Mostly the Southern states.
+638,15,multiple_choice,exam,,The 14th Amendment gives citizenship by:,Service|Birth|Marriage,1,,,It covers people born or naturalized in the US.
+639,16,multiple_choice,exam,,Reconstruction followed the:,Revolution|Great Depression|Civil War,2,,,It was the period after the war.
+640,16,multiple_choice,exam,,The US entered World War II after:,Pearl Harbor|Valley Forge|Fort Sumter,0,,,Japan bombed Pearl Harbor.
+641,16,multiple_choice,exam,,The 19th Amendment gave women the vote in:,1964|1920|1865,1,,,It gave all women the right to vote.
+642,16,multiple_choice,exam,,The Cold War was a rivalry with the:,Great Britain|Nazi Germany|Soviet Union,2,,,The US entered the Korean and Vietnam wars.
+643,16,multiple_choice,exam,,The civil rights movement fought to end:,Discrimination|Industrialization|Immigration,0,,,"Martin Luther King, Jr. was a leader."
