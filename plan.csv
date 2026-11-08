@@ -1,0 +1,84 @@
+section,deck,pack,level,keywords,terms,kind,main_card_id
+The Test,How the Civics Test Works,How does the civics test work?,1,Oral test|20 questions asked|12 correct,Naturalization,teach,2
+The Test,How the Civics Test Works,What is the 65/20 rule?,1,65/20 rule|10 questions asked|6 correct,,teach,11
+The Test,How the Civics Test Works,Which answers can change?,1,Current officials|Official test updates,,teach,19
+Symbols and Holidays,Symbols,Capital and Statue of Liberty,1,"Washington, D.C.|Statue of Liberty",,teach,25
+Symbols and Holidays,Symbols,Why 13 stripes and 50 stars?,1,13 stripes|50 stars,,teach,31
+Symbols and Holidays,Symbols,The anthem and the first motto,1,Star-Spangled Banner|E Pluribus Unum,,teach,38
+Symbols and Holidays,Holidays,What is Independence Day?,1,Independence Day,,teach,44
+Symbols and Holidays,Holidays,Memorial Day and Veterans Day,1,Memorial Day|Veterans Day,,teach,49
+Symbols and Holidays,Holidays,Name three national holidays,1,New Year's Day|Labor Day|Thanksgiving Day,,teach,55
+Symbols and Holidays,Holidays,"Review: the test, symbols and holidays",1,"Washington, D.C.|13 stripes|Independence Day|Memorial Day|65/20 rule",,review,63
+Principles of American Government,The Constitution,What kind of government is the US?,1,Republic|Representative democracy,Republic|Representative democracy,teach,71
+Principles of American Government,The Constitution,What is the supreme law of the land?,1,Constitution,Constitution,teach,77
+Principles of American Government,The Constitution,What does the Constitution do?,1,Forms the government|Protects the rights of the people,,teach,82
+Principles of American Government,The Constitution,What does We the People mean?,2,We the People|Consent of the governed,Consent of the governed,teach,88
+Principles of American Government,The Constitution,How is the Constitution changed?,2,Amendment,Amendment,teach,94
+Principles of American Government,The Constitution,What is the Bill of Rights?,2,Bill of Rights|27 amendments,Bill of Rights,teach,99
+Principles of American Government,The Constitution,Review: the Constitution,2,Republic|Constitution|Amendment|Bill of Rights,,review,105
+Principles of American Government,Founding Ideas,Why does the Declaration matter?,2,Declaration of Independence|All people are created equal,Declaration of Independence,teach,114
+Principles of American Government,Founding Ideas,"Life, Liberty and the pursuit of Happiness",2,"Life, Liberty and Happiness|Natural rights",Natural rights,teach,120
+Principles of American Government,Founding Ideas,What is the economic system?,2,Capitalism|Free market economy,Capitalism,teach,126
+Principles of American Government,Founding Ideas,What is the rule of law?,2,Rule of law,Rule of law,teach,132
+Principles of American Government,Founding Ideas,What documents influenced the Constitution?,2,Articles of Confederation|Mayflower Compact|Iroquois Great Law of Peace,,teach,137
+Principles of American Government,Founding Ideas,Why are there three branches?,2,Three branches|Checks and balances|Separation of powers,Checks and balances|Separation of powers,teach,145
+Principles of American Government,Founding Ideas,Review: principles of government,2,Constitution|Amendment|Bill of Rights|Natural rights|Rule of law,,review,153
+System of Government,Congress,Name the three branches,2,Legislative branch|Executive branch|Judicial branch,Legislative branch|Executive branch|Judicial branch,teach,163
+System of Government,Congress,What are the two parts of Congress?,2,Congress|Senate|House of Representatives,Congress|Senate|House of Representatives,teach,171
+System of Government,Congress,What are the powers of Congress?,2,Writes laws|Declares war|Makes the federal budget,,teach,179
+System of Government,The Senate,Senators: how many and how long?,2,100 senators|Six-year term|Two senators per state,,teach,187
+System of Government,The Senate,Why two senators for each state?,2,Equal representation|Great Compromise,Great Compromise,teach,195
+System of Government,The Senate,Who elects and who do senators represent?,2,Elect senators|Represent citizens of the state,,teach,201
+System of Government,The House of Representatives,House size and terms,2,435 voting members|Two-year term,,teach,207
+System of Government,The House of Representatives,Why shorter House terms?,2,Follow public opinion,,teach,213
+System of Government,The House of Representatives,Districts and population,2,Congressional district|State population,Congressional district,teach,218
+System of Government,The House of Representatives,Your representatives and the Speaker,2,Speaker of the House|Your senators and representative,Speaker of the House,teach,224
+System of Government,The House of Representatives,Review: Congress,2,Congress|Senate|House of Representatives|Great Compromise,,review,230
+System of Government,The President,Terms and the 22nd Amendment,2,Four-year term|22nd Amendment,,teach,241
+System of Government,The President,President and Vice President now,2,President now|Vice President now|Presidential succession,,teach,247
+System of Government,The President,What are the president's powers?,2,Signs bills|Vetoes bills|Commander in Chief,Veto|Commander in Chief,teach,255
+System of Government,The President,What is the Cabinet?,2,Cabinet|Federal departments and agencies,Cabinet,teach,263
+System of Government,The President,Why the Electoral College?,2,Electoral College,Electoral College,teach,270
+System of Government,The President,Review: Congress and the president,2,Senate|House of Representatives|Veto|Cabinet|Electoral College,,review,275
+System of Government,Courts and Federal-State Powers,What do the courts do?,2,Judicial branch|Resolves disputes|Reviews laws,,teach,284
+System of Government,Courts and Federal-State Powers,The Supreme Court,2,Supreme Court|Nine seats|Life tenure,Supreme Court,teach,292
+System of Government,Courts and Federal-State Powers,Who is the Chief Justice now?,2,Chief Justice now,,teach,300
+System of Government,Courts and Federal-State Powers,Powers only for the federal government,2,Print money|Declare war|Make treaties,,teach,306
+System of Government,Courts and Federal-State Powers,Powers only for the states,2,Schools|Police|Driver's licenses,,teach,314
+System of Government,Courts and Federal-State Powers,What is the 10th Amendment?,2,10th Amendment,,teach,322
+System of Government,Courts and Federal-State Powers,Your governor and capital,2,Governor|State capital,,teach,327
+System of Government,Courts and Federal-State Powers,Review: courts and powers,2,Supreme Court|Judicial branch|10th Amendment|Governor,,review,333
+Rights and Responsibilities,Voting and Citizenship,Who can vote?,2,Voting amendments|Citizens only,,teach,342
+Rights and Responsibilities,Voting and Citizenship,How do people become citizens?,2,Birth|Naturalize|Derive citizenship,,teach,348
+Rights and Responsibilities,"Rights, Loyalty and Duties",What are the rights of everyone?,2,Freedom of expression|Freedom of assembly|Freedom of religion,,teach,356
+Rights and Responsibilities,"Rights, Loyalty and Duties",What is the Pledge of Allegiance?,2,Pledge of Allegiance,Pledge of Allegiance,teach,364
+Rights and Responsibilities,"Rights, Loyalty and Duties",What is the Oath of Allegiance?,2,Oath of Allegiance|Defend the Constitution|Give up loyalty to other countries,Oath of Allegiance,teach,369
+Rights and Responsibilities,"Rights, Loyalty and Duties",How can people take part?,2,Civic participation|Ways to serve the country,Civic participation,teach,377
+Rights and Responsibilities,"Rights, Loyalty and Duties",Federal taxes and Selective Service,2,Federal taxes|16th Amendment|Selective Service,Selective Service,teach,383
+Rights and Responsibilities,"Rights, Loyalty and Duties",Review: rights and duties,2,Citizens|Pledge of Allegiance|Oath of Allegiance|Civic participation|Selective Service,,review,391
+American History,Colonial America,Why did the colonists come?,2,Freedom|Religious freedom|Economic opportunity,,teach,399
+American History,Colonial America,Native Americans and enslaved Africans,2,Native Americans|Enslaved Africans,,teach,407
+American History,Colonial America,Why the Revolution?,2,American Revolution|Taxation without representation,Taxation without representation,teach,413
+American History,Independence and the Founders,Who wrote the Declaration and when?,3,"Thomas Jefferson|July 4, 1776",,teach,419
+American History,Independence and the Founders,Important Revolution events,3,Valley Forge|Yorktown|Saratoga,,teach,425
+American History,Independence and the Founders,The 13 original states,3,13 original states,,teach,433
+American History,Independence and the Founders,The Constitution and the Federalist Papers,3,Constitution of 1787|Federalist Papers|Publius,Federalist Papers,teach,441
+American History,Independence and the Founders,Franklin and Washington,3,Benjamin Franklin|George Washington,,teach,449
+American History,Independence and the Founders,"Madison, Hamilton and the Louisiana Purchase",3,James Madison|Alexander Hamilton|Louisiana Purchase,,teach,455
+American History,Independence and the Founders,Review: the founding era,3,Declaration of Independence|Federalist Papers|George Washington|Louisiana Purchase,,review,463
+American History,The 1800s,Wars of the 1800s,3,War of 1812|Mexican-American War|Spanish-American War,,teach,472
+American History,The 1800s,What was the Civil War?,3,Civil War|The North and the South|Ended slavery,,teach,480
+American History,The 1800s,Lincoln and Civil War events,3,Abraham Lincoln|Gettysburg|Appomattox,,teach,488
+American History,The 1800s,What was the Emancipation Proclamation?,3,Emancipation Proclamation,Emancipation Proclamation,teach,496
+American History,The 1800s,Citizenship and voting after the war,3,14th Amendment|15th Amendment|Reconstruction,Reconstruction,teach,502
+American History,The 1800s,Women's rights leaders,3,Susan B. Anthony|Elizabeth Cady Stanton|Sojourner Truth,,teach,510
+American History,The 1800s,Review: colonial era to 1800s,3,Declaration of Independence|Federalist Papers|Emancipation Proclamation|Reconstruction,,review,518
+American History,The 1900s and Today,Wars of the 1900s,3,World War I|World War II|Korean War|Vietnam War,,teach,526
+American History,The 1900s and Today,Why did the US enter the world wars?,3,Why World War I|Pearl Harbor,,teach,536
+American History,The 1900s and Today,Women's vote and the Great Depression,3,19th Amendment|Great Depression|Stock market crash of 1929,Great Depression,teach,542
+American History,The 1900s and Today,Roosevelt and Eisenhower,3,Franklin Roosevelt|Dwight Eisenhower,,teach,550
+American History,The 1900s and Today,What was the Cold War?,3,Cold War|Soviet Union|Communism,Cold War,teach,556
+American History,The 1900s and Today,What was the civil rights movement?,3,"Civil rights movement|Martin Luther King, Jr.",Civil rights movement,teach,564
+American History,The 1900s and Today,Persian Gulf War and September 11,3,"Persian Gulf War|September 11, 2001|War on Terror",,teach,570
+American History,The 1900s and Today,Tribes and American innovations,3,American Indian tribes|American innovations,,teach,578
+American History,The 1900s and Today,Review: American history,3,World War II|Great Depression|Cold War|Civil rights movement,,review,584
