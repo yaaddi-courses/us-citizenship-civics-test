@@ -9,7 +9,7 @@ id,unit_id,type,role,related_main_id,prompt,options,correct_index,image,audio,ex
 8,1,select_blank,exercise,2,The question bank has ___ questions.,100|128|65,1,,,The 2025 test uses a bank of 128 questions.
 9,1,select_blank,exercise,2,You need ___ correct answers to pass.,20|9|12,2,,,Twelve correct answers out of up to 20 questions is a pass.
 10,1,true_false,preview,11,Some older applicants study only twenty questions.,,true,,,True. That is the 65/20 rule.
-11,1,multiple_choice,main,,Who can use the 65/20 rule?,Age 65+|Under 18|Any age,0,,,"65/20 rule: age 65+ and 20 years as a permanent resident. You study 20 questions, get asked 10 and need 6 correct."
+11,1,multiple_choice,main,,Who can use the 65/20 rule?,Age 65+|Under 18|Any age,0,,,"Some older applicants study only twenty questions. That is the 65/20 rule: age 65+ and 20 years as a permanent resident. You study 20 questions, get asked 10 and need 6 correct."
 12,1,true_false,exercise,11,"Under the 65/20 rule, 10 questions are asked.",,true,,,True. The officer asks 10 of the 20 marked questions.
 13,1,select_blank,exercise,11,"Under 65/20, you need ___ correct.",12|6|10,1,,,Six out of 10 correct answers is a pass for the 65/20 rule.
 14,1,multiple_choice,exercise,11,How many questions are asked under 65/20?,20|6|10,2,,,The officer asks 10 questions.
@@ -64,7 +64,7 @@ id,unit_id,type,role,related_main_id,prompt,options,correct_index,image,audio,ex
 63,3,multiple_choice,main,,Which holiday honors those who served?,Veterans Day|Labor Day|Flag Day,0,,,Veterans Day honors people who have served in the US military.
 64,3,match_pairs,exercise,63,Match each item to its meaning.,13 stripes↔Original colonies|50 stars↔Present states|Independence Day↔Nation's birthday|Memorial Day↔Fallen soldiers,,,,"Each symbol or holiday has a short, fixed meaning on the test."
 65,3,select_blank,exercise,63,The officer asks up to ___ questions.,12|20|10,1,,,The officer asks up to 20 questions.
-66,3,true_false,exercise,63,"Under 65/20, six correct answers pass.",,true,,,True. Six out of ten correct is a pass for the 65/20 rule.
+66,3,true_false,exercise,63,Memorial Day honors fallen soldiers.,,true,,,True. Memorial Day honors soldiers who died in service.
 67,3,true_false,exercise,63,The Star-Spangled Banner is the anthem.,,true,,,True. It is the national anthem.
 68,3,select_blank,exercise,63,Each of the 50 stars represents a ___.,colony|war|state,2,,,Each star stands for one state.
 69,3,multiple_choice,exercise,63,Which city is the US capital?,"Washington, D.C.|Chicago|Boston",0,,,"Washington, D.C. is the capital."
@@ -86,7 +86,7 @@ id,unit_id,type,role,related_main_id,prompt,options,correct_index,image,audio,ex
 85,4,multiple_choice,exercise,82,Which is a job of the Constitution?,Forms government|Writes recipes|Names holidays,0,,,It forms the government.
 86,4,true_false,exercise,82,The Constitution removes people's rights.,,false,,,False. It protects the rights of the people.
 87,4,true_false,preview,88,'We the People' means people should govern themselves.,,true,,,True. This idea is self-government.
-88,4,multiple_choice,main,,What does We the People mean?,Royal rule|Self-government|Military rule,1,,,"We the People means self-government: the government rules by the consent of the governed, the people."
+88,4,multiple_choice,main,,What does We the People mean?,Royal rule|Self-government|Military rule,1,,,"We the People means people should govern themselves. That is self-government: the government rules by the consent of the governed, the people."
 89,4,true_false,exercise,88,Consent of the governed means people agree to be ruled.,,true,,,True. The government's power comes from the people's agreement.
 90,4,select_blank,exercise,88,We the People means ___-government.,royal|military|self,2,,,The people govern themselves.
 91,4,multiple_choice,exercise,88,Who holds power under We the People?,The people|A king|The army,0,,,The people hold power.
@@ -137,7 +137,7 @@ id,unit_id,type,role,related_main_id,prompt,options,correct_index,image,audio,ex
 136,5,true_false,preview,137,The Mayflower Compact influenced the Constitution.,,true,,,True. So did the Articles of Confederation.
 137,5,multiple_choice,main,,Which influenced the Constitution?,Mayflower Compact|Gettysburg Address|Monroe Doctrine,0,,,"Many documents influenced the Constitution, including the Articles of Confederation, the Mayflower Compact and the Iroquois Great Law of Peace."
 138,5,select_blank,exercise,137,The Mayflower ___ influenced the Constitution.,Treaty|Compact|Doctrine,1,,,The Mayflower Compact is on the official list.
-139,5,true_false,exercise,137,The Iroquois Great Law of Peace influenced it.,,true,,,True. It is one of the accepted answers.
+139,5,true_false,exercise,137,The Iroquois Great Law of Peace influenced the Constitution.,,true,,,True. It is one of the accepted answers.
 140,5,true_false,exercise,137,The Articles of Confederation influenced the Constitution.,,true,,,True. It is on the official list.
 141,5,true_false,exercise,137,The Gettysburg Address influenced the Constitution.,,false,,,"False. It was written in 1863, long after the Constitution."
 142,5,select_blank,exercise,137,The Iroquois Great Law of ___.,War|Trade|Peace,2,,,The full name is the Iroquois Great Law of Peace.
@@ -222,7 +222,7 @@ id,unit_id,type,role,related_main_id,prompt,options,correct_index,image,audio,ex
 221,8,true_false,exercise,218,States with more people get more representatives.,,true,,,True. Population decides the number.
 222,8,true_false,exercise,218,All states have the same number of representatives.,,false,,,False. The number depends on population.
 223,8,true_false,preview,224,The Speaker leads the House of Representatives.,,true,,,True. Members of the House choose the Speaker.
-224,8,multiple_choice,main,,Who leads the House of Representatives?,Chief Justice|Speaker|Vice President,1,,,The Speaker of the House leads the House. USCIS lists Mike Johnson (Oct 2026). Your own senators and representative vary by state.
+224,8,multiple_choice,main,,Who leads the House of Representatives?,Chief Justice|Speaker|Vice President,1,,,"The Speaker of the House leads the House, and members of the House choose the Speaker. USCIS lists Mike Johnson (Oct 2026). Your own senators and representative vary by state."
 225,8,select_blank,exercise,224,The Speaker leads the ___.,Senate|courts|House,2,,,The Speaker of the House leads the House of Representatives.
 226,8,true_false,exercise,224,Mike Johnson is the Speaker of the House.,,true,,,"True as listed by USCIS in October 2026. Answers can change, so check testupdates."
 227,8,true_false,exercise,224,Everyone has the same senators.,,false,,,False. Your senators and representative depend on where you live.
@@ -239,7 +239,7 @@ id,unit_id,type,role,related_main_id,prompt,options,correct_index,image,audio,ex
 238,8,match_pairs,exercise,230,"Match each term, round 2.",Executive branch↔Carries out laws|Judicial branch↔Explains laws|Congress↔Senate and House|Senate↔100 senators|House of Representatives↔435 members,,,,Each term goes with its short meaning.
 239,8,match_pairs,exercise,230,"Match each term, round 3.","Great Compromise↔Two senators, population House|Rule of law↔Everyone obeys laws|Checks and balances↔Branches limit each other",,,,Each term goes with its short meaning.
 240,9,true_false,preview,241,The president serves a four-year term.,,true,,,True. Presidents can serve only two terms.
-241,9,multiple_choice,main,,How long is a presidential term?,Two years|Six years|Four years,2,,,"Presidents are elected for four years. The 22nd Amendment limits them to two terms, so no president becomes too powerful."
+241,9,multiple_choice,main,,How long is a presidential term?,Two years|Six years|Four years,2,,,"The president serves a four-year term. The 22nd Amendment limits presidents to two terms, so no president becomes too powerful."
 242,9,select_blank,exercise,241,A president serves ___ years per term.,four|two|six,0,,,A presidential term is four years.
 243,9,true_false,exercise,241,A president can serve three terms.,,false,,,False. The 22nd Amendment limits presidents to two terms.
 244,9,multiple_choice,exercise,241,Which amendment limits presidential terms?,10th|22nd|27th,1,,,The 22nd Amendment limits a president to two terms.
@@ -261,7 +261,7 @@ id,unit_id,type,role,related_main_id,prompt,options,correct_index,image,audio,ex
 260,9,true_false,exercise,255,Congress is Commander in Chief.,,false,,,False. The president is Commander in Chief.
 261,9,multiple_choice,exercise,255,What does a veto do?,Passes bills|Rejects bills|Writes bills,1,,,A veto rejects a bill passed by Congress.
 262,9,true_false,preview,263,The Cabinet advises the president.,,true,,,True. It is part of the executive branch.
-263,9,multiple_choice,main,,What does the Cabinet do?,Writes laws|Hears cases|Advises president,2,,,The Cabinet advises the president; members include the Attorney General and Secretary of State. Federal departments and agencies are executive too.
+263,9,multiple_choice,main,,What does the Cabinet do?,Writes laws|Hears cases|Advises president,2,,,The Cabinet advises the president and is part of the executive branch; members include the Attorney General and Secretary of State. Federal departments and agencies are executive too.
 264,9,true_false,exercise,263,The Cabinet writes federal laws.,,false,,,False. The Cabinet advises the president; Congress writes laws.
 265,9,select_blank,exercise,263,The ___ advises the president.,Cabinet|Senate|Court,0,,,The Cabinet advises the president.
 266,9,multiple_choice,exercise,263,Which is part of the executive branch?,The Senate|Federal agencies|Federal courts,1,,,Federal departments and agencies are part of the executive branch.
@@ -282,7 +282,7 @@ id,unit_id,type,role,related_main_id,prompt,options,correct_index,image,audio,ex
 281,9,true_false,exercise,275,The Vice President can replace the president.,,true,,,True. The Vice President takes over if needed.
 282,9,match_pairs,exercise,275,"Match each term, round 1.",Congressional district↔House member's area|Speaker of the House↔House leader,,,,Each term goes with its short meaning.
 283,10,true_false,preview,284,The judicial branch resolves disputes about the law.,,true,,,True. The courts make up the judicial branch.
-284,10,multiple_choice,main,,What does the judicial branch do?,Resolves disputes|Writes laws|Signs bills,0,,,"The judicial branch reviews and explains laws, resolves disputes about the law, and decides if a law goes against the Constitution."
+284,10,multiple_choice,main,,What does the judicial branch do?,Resolves disputes|Writes laws|Signs bills,0,,,"The courts make up the judicial branch. It reviews and explains laws, resolves disputes about the law, and decides if a law goes against the Constitution."
 285,10,true_false,exercise,284,The courts explain laws.,,true,,,True. Explaining laws is part of the judicial branch's job.
 286,10,select_blank,exercise,284,The judicial branch ___ disputes about the law.,creates|resolves|ignores,1,,,Resolving disputes is its job.
 287,10,multiple_choice,exercise,284,Which branch reviews laws?,Legislative|Executive|Judicial,2,,,The judicial branch reviews laws.
@@ -292,13 +292,13 @@ id,unit_id,type,role,related_main_id,prompt,options,correct_index,image,audio,ex
 291,10,true_false,preview,292,The Supreme Court has nine seats.,,true,,,True. Justices serve for life.
 292,10,multiple_choice,main,,How long do Supreme Court justices serve?,Six years|For life|Four years,1,,,"The Supreme Court is the highest court with nine seats. Justices hold life tenure, serving for life to stay independent."
 293,10,select_blank,exercise,292,The Supreme Court has ___ seats.,five|twelve|nine,2,,,There are nine seats.
-294,10,select_blank,exercise,292,Usually ___ justices decide a case.,five|nine|two,0,,,Five justices are usually needed to decide a case.
+294,10,select_blank,exercise,292,Supreme Court justices serve for ___.,life|ten years|four years,0,,,Justices serve for life.
 295,10,multiple_choice,exercise,292,What is the highest court?,Federal court|Supreme Court|State court,1,,,The Supreme Court is the highest court in the United States.
 296,10,true_false,exercise,292,Justices serve four-year terms.,,false,,,False. Justices serve for life.
 297,10,true_false,exercise,292,Justices serve for life to stay independent.,,true,,,True. Life tenure limits political influence.
 298,10,multiple_choice,exercise,292,Why do justices serve for life?,Higher pay|Tradition|Independence,2,,,Life tenure helps them stay independent of politics.
 299,10,true_false,preview,300,The Chief Justice leads the Supreme Court.,,true,,,True. USCIS lists the current name on its updates page.
-300,10,multiple_choice,main,,Who is the Chief Justice now?,John Roberts|Mike Johnson|J.D. Vance,0,,,USCIS lists John Roberts as Chief Justice in October 2026. Check testupdates because answers can change.
+300,10,multiple_choice,main,,Who is the Chief Justice now?,John Roberts|Mike Johnson|J.D. Vance,0,,,The Chief Justice leads the Supreme Court. USCIS lists John Roberts as Chief Justice in October 2026. Check testupdates because answers can change.
 301,10,true_false,exercise,300,John Roberts is the Chief Justice.,,true,,,True as listed by USCIS in October 2026.
 302,10,select_blank,exercise,300,The Chief Justice is John ___.,Johnson|Roberts|Vance,1,,,The answer is John Roberts.
 303,10,multiple_choice,exercise,300,Which court does the Chief Justice lead?,State court|City court|Supreme Court,2,,,The Chief Justice leads the Supreme Court.
@@ -340,7 +340,7 @@ id,unit_id,type,role,related_main_id,prompt,options,correct_index,image,audio,ex
 339,10,select_blank,exercise,333,Leftover powers go to the ___.,army|courts|states,2,,,The 10th Amendment gives them to the states or the people.
 340,10,match_pairs,exercise,333,"Match each term, round 1.",Veto↔Reject a bill|Commander in Chief↔Head of military|Cabinet↔Presidential advisers|Electoral College↔Elects the president|Supreme Court↔Nine justices,,,,Each term goes with its short meaning.
 341,11,true_false,preview,342,Only US citizens can vote in federal elections.,,true,,,True. Citizens can also serve on a jury.
-342,11,multiple_choice,main,,Who can vote in federal elections?,Citizens|Residents|Visitors,0,,,"Only citizens can vote in federal elections. Voting amendments say citizens 18+, women and any race can vote; no poll tax."
+342,11,multiple_choice,main,,Who can vote in federal elections?,Citizens|Residents|Visitors,0,,,"Only citizens can vote in federal elections. Citizens can also serve on a jury. Voting amendments say citizens 18+, women and any race can vote; no poll tax."
 343,11,true_false,exercise,342,You must pay a poll tax to vote.,,false,,,False. An amendment says you don't have to pay a poll tax.
 344,11,select_blank,exercise,342,Citizens ___ and older can vote.,21|18|16,1,,,Citizens eighteen and older can vote.
 345,11,multiple_choice,exercise,342,Who can serve on a jury?,Visitors|Tourists|Citizens,2,,,Only citizens can serve on a jury.
@@ -375,7 +375,7 @@ id,unit_id,type,role,related_main_id,prompt,options,correct_index,image,audio,ex
 374,12,select_blank,exercise,369,The Oath of ___ is taken by new citizens.,Allegiance|Office|Silence,0,,,It is called the Oath of Allegiance.
 375,12,true_false,exercise,369,New citizens keep full loyalty to their old country.,,false,,,False. They promise to give up loyalty to other countries.
 376,12,true_false,preview,377,Voting is one way to take part in civic life.,,true,,,True. Many other ways count too.
-377,12,multi_select,main,,Pick examples of civic participation.,Vote|Join groups|Ignore elections|Avoid taxes,0|1,,,"Civic participation: vote, run for office, join a group. Other ways to serve the country: pay taxes or serve in the military."
+377,12,multi_select,main,,Pick examples of civic participation.,Vote|Join groups|Ignore elections|Avoid taxes,0|1,,,"Voting is one way to take part in civic life, and many other ways count too: run for office, join a group. Other ways to serve the country: pay taxes or serve in the military."
 378,12,true_false,exercise,377,Contacting an elected official is civic participation.,,true,,,True. Giving officials your opinion counts.
 379,12,select_blank,exercise,377,Americans serve by paying ___.,tolls|taxes|rent,1,,,Paying taxes is one way Americans serve their country.
 380,12,multiple_choice,exercise,377,Which is a way Americans serve their country?,Skipping votes|Ignoring laws|Military service,2,,,Serving in the military is one way.
@@ -424,14 +424,14 @@ id,unit_id,type,role,related_main_id,prompt,options,correct_index,image,audio,ex
 423,14,true_false,exercise,419,Jefferson is the Declaration's author.,,true,,,True. Thomas Jefferson wrote it.
 424,14,true_false,preview,425,The British surrendered at Yorktown.,,true,,,True. Valley Forge and Saratoga were also key events.
 425,14,multiple_choice,main,,Name one Revolution event.,Gettysburg|Yorktown|Pearl Harbor,1,,,"Important Revolution events include Valley Forge, Saratoga and Yorktown, where the British surrendered."
-426,14,select_blank,exercise,425,The British surrendered at ___.,Saratoga|Appomattox|Yorktown,2,,,The British surrendered at Yorktown.
+426,14,select_blank,exercise,425,The British surrendered at ___.,Gettysburg|Appomattox|Yorktown,2,,,The British surrendered at Yorktown.
 427,14,multiple_choice,exercise,425,Which was a Revolution event?,Valley Forge|Gettysburg|Appomattox,0,,,Valley Forge was an encampment during the Revolution.
 428,14,true_false,exercise,425,Saratoga was a battle of the Revolution.,,true,,,True. Saratoga is on the official list.
 429,14,true_false,exercise,425,Gettysburg was a Revolution battle.,,false,,,False. Gettysburg was a Civil War battle.
 430,14,select_blank,exercise,425,Valley ___ was a Revolution encampment.,Creek|Forge|Hill,1,,,The place is Valley Forge.
 431,14,true_false,exercise,425,Valley Forge was an encampment.,,true,,,True. USCIS lists it as Valley Forge (Encampment).
 432,14,true_false,preview,433,Thirteen colonies became the first states.,,true,,,"True. They include New Hampshire, Massachusetts, Rhode Island, Connecticut and New York."
-433,14,multi_select,main,,Pick original states.,Virginia|Georgia|Delaware|Texas|Ohio,0|1|2,,,"The other original states: New Jersey, Pennsylvania, Delaware, Maryland, Virginia, North Carolina, South Carolina and Georgia."
+433,14,multi_select,main,,Pick original states.,Virginia|Georgia|Delaware|Texas|Ohio,0|1|2,,,"Thirteen colonies became the first states. The other original states: New Jersey, Pennsylvania, Delaware, Maryland, Virginia, North Carolina, South Carolina and Georgia."
 434,14,multiple_choice,exercise,433,Which is an original state?,Texas|Ohio|Maryland,2,,,Maryland is one of the 13 original states.
 435,14,true_false,exercise,433,Texas was one of the 13 original states.,,false,,,False. Texas joined later.
 436,14,true_false,exercise,433,Pennsylvania was an original state.,,true,,,True. It is on the list of 13.
@@ -453,11 +453,11 @@ id,unit_id,type,role,related_main_id,prompt,options,correct_index,image,audio,ex
 452,14,multiple_choice,exercise,449,Who founded the first free public libraries?,Washington|Franklin|Jefferson,1,,,Benjamin Franklin founded the first free public libraries.
 453,14,true_false,exercise,449,Washington led the Continental Army.,,true,,,True. He was general of the Continental Army.
 454,14,true_false,preview,455,The United States bought Louisiana from France in 1803.,,true,,,True. The deal doubled the nation's size.
-455,14,multiple_choice,main,,What territory did the US buy in 1803?,Texas|Florida|Louisiana,2,,,Jefferson doubled the nation's size via the Louisiana Purchase (1803). James Madison was fourth president; Alexander Hamilton first Treasury Secretary.
+455,14,multiple_choice,main,,What territory did the US buy in 1803?,Texas|Florida|Louisiana,2,,,The United States bought Louisiana from France in 1803. President Thomas Jefferson doubled the nation's size via the Louisiana Purchase. James Madison was fourth president; Alexander Hamilton first Treasury Secretary.
 456,14,select_blank,exercise,455,The Louisiana Purchase was from ___.,France|Spain|Britain,0,,,The United States bought Louisiana from France.
 457,14,true_false,exercise,455,Madison was the fourth president.,,true,,,True. James Madison served as the fourth president.
 458,14,multiple_choice,exercise,455,Who was the first Secretary of the Treasury?,Madison|Hamilton|Jefferson,1,,,Alexander Hamilton was the first Secretary of the Treasury.
-459,14,true_false,exercise,455,Hamilton was the third president.,,false,,,False. Jefferson was the third president.
+459,14,true_false,exercise,455,Jefferson was president when the US bought Louisiana.,,true,,,True. Jefferson doubled the nation's size with the Louisiana Purchase.
 460,14,select_blank,exercise,455,The Louisiana Purchase happened in ___.,1776|1865|1803,2,,,It happened in 1803.
 461,14,true_false,exercise,455,Jefferson doubled the nation's size.,,true,,,True. The Louisiana Purchase doubled the size of the United States.
 462,14,true_false,preview,463,Many founders shaped the new nation.,,true,,,"True. Washington, Jefferson, Madison and Hamilton are examples."
@@ -497,12 +497,12 @@ id,unit_id,type,role,related_main_id,prompt,options,correct_index,image,audio,ex
 496,15,multiple_choice,main,,What did the Emancipation Proclamation do?,Freed slaves|Ended Congress|Created states,0,,,"Lincoln's Emancipation Proclamation freed slaves in the Confederacy, most Southern states."
 497,15,select_blank,exercise,496,The Emancipation Proclamation freed ___.,soldiers|slaves|states,1,,,It freed slaves.
 498,15,multiple_choice,exercise,496,Who issued the Emancipation Proclamation?,Jefferson|Washington|Lincoln,2,,,Abraham Lincoln issued it.
-499,15,true_false,exercise,496,It freed slaves in most Southern states.,,true,,,True. It applied to the Confederate states.
+499,15,true_false,exercise,496,The Emancipation Proclamation freed slaves in most Southern states.,,true,,,True. It applied to the Confederate states.
 500,15,multiple_choice,exercise,496,Which freed slaves in the Confederacy?,Emancipation Proclamation|Declaration|Constitution,0,,,The Emancipation Proclamation did.
 501,15,true_false,preview,502,The 14th Amendment makes people born here citizens.,,true,,,True. It also covers people who naturalize.
 502,15,multiple_choice,main,,Which amendment gives citizenship by birth?,15th|14th|19th,1,,,"The 14th Amendment says people born or naturalized in the US are citizens. The 15th Amendment gave all men the vote in 1870, during Reconstruction."
 503,15,select_blank,exercise,502,The ___ Amendment gave all men the vote.,14th|22nd|15th,2,,,The 15th Amendment gave all men the vote.
-504,15,true_false,exercise,502,Reconstruction followed the Civil War.,,true,,,True. It was the period after the war.
+504,15,true_false,exercise,502,The 15th Amendment came after the Civil War.,,true,,,"True. It was passed during Reconstruction, after the war."
 505,15,multiple_choice,exercise,502,When did all men get the right to vote?,1870|1776|1920,0,,,The 15th Amendment did so in 1870.
 506,15,true_false,exercise,502,The 14th Amendment covers naturalized citizens too.,,true,,,True. It covers people born or naturalized in the US.
 507,15,select_blank,exercise,502,Reconstruction happened after the ___.,Revolution|Civil War|Depression,1,,,It happened after the Civil War.
@@ -514,7 +514,7 @@ id,unit_id,type,role,related_main_id,prompt,options,correct_index,image,audio,ex
 513,15,true_false,exercise,510,Sojourner Truth was a women's rights leader.,,true,,,True. She is on the official list.
 514,15,multiple_choice,exercise,510,Which was a women's rights leader?,Stanton|Edison|Ford,0,,,Elizabeth Cady Stanton was a women's rights leader.
 515,15,true_false,exercise,510,Thomas Edison led women's rights.,,false,,,False. He was an inventor.
-516,15,select_blank,exercise,510,These leaders worked in the ___.,1900s|1800s|1700s,1,,,They were leaders in the 1800s.
+516,15,select_blank,exercise,510,Women's rights leaders worked in the ___.,1900s|1800s|1700s,1,,,They were leaders in the 1800s.
 517,15,true_false,preview,518,Many events shaped the nation before 1900.,,true,,,"True. They include the Revolution, the Civil War and Reconstruction."
 518,15,multiple_choice,main,,Which period followed the Civil War?,Revolution|Depression|Reconstruction,2,,,Reconstruction followed the Civil War.
 519,15,match_pairs,exercise,518,Match each item to its key fact.,Louisiana Purchase↔1803|Civil War↔North versus South|Emancipation Proclamation↔Freed slaves|14th Amendment↔Birth citizenship,,,,Each item has a key fact.
